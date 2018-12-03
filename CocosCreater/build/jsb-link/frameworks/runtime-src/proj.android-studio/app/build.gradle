@@ -1,0 +1,172 @@
+import org.apache.tools.ant.taskdefs.condition.Os
+
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion '26.0.2'
+
+    defaultConfig {
+        applicationId "adam.lean.foreign"
+        minSdkVersion PROP_TARGET_SDK_VERSION
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+//        multiDexEnabled true
+//        ndk {
+//            abiFilters 'armeabi-v7a', 'x86'
+//        }
+
+        externalNativeBuild {
+            ndkBuild {
+                if (!project.hasProperty("PROP_NDK_MODE") || PROP_NDK_MODE.compareTo('none') != 0) {
+                    // skip the NDK Build step if PROP_NDK_MODE is none
+                    targets 'cocos2djs'
+                    arguments 'NDK_TOOLCHAIN_VERSION=4.9'
+                    arguments 'APP_PLATFORM=android-'+PROP_TARGET_SDK_VERSION
+                    
+                    def module_paths = [project.file("/Applications/CocosCreator.app/Contents/Resources/cocos2d-x"),
+                                        project.file("/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/cocos"),
+                                        project.file("/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/external")]
+                    if (Os.isFamily(Os.FAMILY_WINDOWS)) {
+                        arguments 'NDK_MODULE_PATH=' + module_paths.join(";")
+                    }
+                    else {
+                        arguments 'NDK_MODULE_PATH=' + module_paths.join(':')
+                    }
+
+                    arguments '-j' + Runtime.runtime.availableProcessors()
+                    abiFilters.addAll(PROP_APP_ABI.split(':').collect{it as String})
+                }
+            }
+        }
+    }
+
+    sourceSets.main {
+        java.srcDir "src"
+        res.srcDir "res"
+        jniLibs.srcDir "libs"
+        manifest.srcFile "AndroidManifest.xml"
+    }
+
+    externalNativeBuild {
+        ndkBuild {
+            if (!project.hasProperty("PROP_NDK_MODE") || PROP_NDK_MODE.compareTo('none') != 0) {
+                // skip the NDK Build step if PROP_NDK_MODE is none
+                path "jni/Android.mk"
+            }
+        }
+    }
+
+    signingConfigs {
+
+       release {
+            if (project.hasProperty("RELEASE_STORE_FILE")) {
+                storeFile file(RELEASE_STORE_FILE)
+                storePassword RELEASE_STORE_PASSWORD
+                keyAlias RELEASE_KEY_ALIAS
+                keyPassword RELEASE_KEY_PASSWORD
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            if (project.hasProperty("RELEASE_STORE_FILE")) {
+                signingConfig signingConfigs.release
+            }
+
+            externalNativeBuild {
+                ndkBuild {
+                    arguments 'NDK_DEBUG=0'
+                }
+            }
+        }
+
+        debug {
+            externalNativeBuild {
+                ndkBuild {
+                    arguments 'NDK_DEBUG=1'
+                }
+            }
+        }
+    }
+}
+
+android.applicationVariants.all { variant ->
+    // delete previous files first
+    delete "${buildDir}/intermediates/assets/${variant.dirName}"
+
+    variant.mergeAssets.doLast {
+        copy {
+           from "${buildDir}/../../../../../res"
+           into "${buildDir}/intermediates/assets/${variant.dirName}/res"
+        }
+
+        copy {
+            from "${buildDir}/../../../../../src"
+            into "${buildDir}/intermediates/assets/${variant.dirName}/src"
+        }
+
+        copy {
+            from "${buildDir}/../../../../../main.js"
+            from "${buildDir}/../../../../../project.json"
+            into "${buildDir}/intermediates/assets/${variant.dirName}"
+        }
+
+        copy {
+            from "/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/cocos/scripting/js-bindings/script"
+            into "${buildDir}/intermediates/assets/${variant.dirName}/script"
+        }
+    }
+}
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile project(':libcocos2dx')
+
+    //MultiDex
+//    compile 'com.android.support:multidex:1.0.1'
+
+    //sdk lib
+    compile(name: 'UPAdsSdk_CocosJs_3.0.06_dex', ext: 'aar')
+    compile 'com.android.support:appcompat-v7:26.1.0'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+
+
+    //thirdLibrary
+    compile(name: 'gson-2.7', ext: 'jar') // for vungle and youappi
+    compile(name: 'palette-v7-26.1.0', ext: 'aar') // for dap
+
+    compile 'com.google.android.gms:play-services-ads:16.0.0'
+
+    compile(name: 'adcolony_ads', ext: 'aar')
+    compile(name: 'amazon_ads', ext: 'aar')
+    compile(name: 'applovin_ads', ext: 'aar')
+    compile(name: 'appnext_ads', ext: 'aar')
+    compile(name: 'appnext_core', ext: 'aar')
+    compile(name: 'batmobi_ads', ext: 'aar')
+    compile(name: 'chartboost_ads', ext: 'aar')
+    compile(name: 'facebook_ads', ext: 'aar')
+    compile(name: 'facebook_exo_player', ext: 'aar')
+    compile(name: 'ironsource_ads', ext: 'aar')
+    compile(name: 'mobpower_ads', ext: 'aar')
+    compile(name: 'mobvista_ads', ext: 'aar')
+    compile(name: 'tapjoy_ads', ext: 'aar')
+    compile(name: 'unity_ads', ext: 'aar')
+    compile(name: 'vungle_ads', ext: 'aar')
+    compile(name: 'youappi_ads', ext: 'aar')
+    compile(name: 'dap_ads_cw', ext: 'aar')
+    compile(name: 'dap_ads_vd', ext: 'aar')
+    compile(name: 'displayio_ads', ext: 'aar')
+
+
+}
