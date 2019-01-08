@@ -1,18 +1,18 @@
-Executable : /Users/huobanbengkui/Library/Android/android-ndk-r16b/ndk-build
+Executable : E:\android-ndk-r10e\ndk-build.cmd
 arguments : 
 NDK_PROJECT_PATH=null
-APP_BUILD_SCRIPT=/Users/huobanbengkui/Desktop/CocosCreater/build/jsb-link/frameworks/runtime-src/proj.android-studio/app/jni/Android.mk
-NDK_APPLICATION_MK=/Users/huobanbengkui/Desktop/CocosCreater/build/jsb-link/frameworks/runtime-src/proj.android-studio/app/jni/Application.mk
+APP_BUILD_SCRIPT=E:\github\AdSdkDemo_CocosCreator\CocosCreater\build\jsb-link\frameworks\runtime-src\proj.android-studio\app\jni\Android.mk
+NDK_APPLICATION_MK=E:\github\AdSdkDemo_CocosCreator\CocosCreater\build\jsb-link\frameworks\runtime-src\proj.android-studio\app\jni\Application.mk
 APP_ABI=armeabi-v7a
 NDK_ALL_ABIS=armeabi-v7a
 NDK_DEBUG=0
-APP_PLATFORM=android-22
-NDK_OUT=/Users/huobanbengkui/Desktop/CocosCreater/build/jsb-link/frameworks/runtime-src/proj.android-studio/app/build/intermediates/ndkBuild/release/obj
-NDK_LIBS_OUT=/Users/huobanbengkui/Desktop/CocosCreater/build/jsb-link/frameworks/runtime-src/proj.android-studio/app/build/intermediates/ndkBuild/release/lib
+APP_PLATFORM=android-21
+NDK_OUT=E:/github/AdSdkDemo_CocosCreator/CocosCreater/build/jsb-link/frameworks/runtime-src/proj.android-studio/app/build/intermediates/ndkBuild/release/obj
+NDK_LIBS_OUT=E:\github\AdSdkDemo_CocosCreator\CocosCreater\build\jsb-link\frameworks\runtime-src\proj.android-studio\app\build\intermediates\ndkBuild\release\lib
 NDK_TOOLCHAIN_VERSION=4.9
 APP_PLATFORM=android-22
-NDK_MODULE_PATH=/Applications/CocosCreator.app/Contents/Resources/cocos2d-x:/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/cocos:/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/external
--j4
+NDK_MODULE_PATH=E:\CocosCreator\resources\cocos2d-x;E:\CocosCreator\resources\cocos2d-x\cocos;E:\CocosCreator\resources\cocos2d-x\external
+-j8
 NDK_DEBUG=0
 APP_SHORT_COMMANDS=false
 LOCAL_SHORT_COMMANDS=false

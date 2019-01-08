@@ -7,7 +7,7 @@ APP_CPPFLAGS := -frtti -std=c++11 -fsigned-char
 APP_LDFLAGS := -latomic
 
 # To solve windows commands char length too long
-#APP_SHORT_COMMANDS := true
+APP_SHORT_COMMANDS := true
 
 USE_ARM_MODE := 1
 #USE_ANY_SDK := 1

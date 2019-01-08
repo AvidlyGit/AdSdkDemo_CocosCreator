@@ -21,34 +21,6 @@
 		1AFFCD7D1F7A5D5400628F2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AFFCD7C1F7A5D4F00628F2C /* LaunchScreen.storyboard */; };
 		1AFFCD7E1F7A5D5400628F2C /* LaunchScreenBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AFFCD7B1F7A5D4F00628F2C /* LaunchScreenBackground.png */; };
 		1AFFCD7F1F7A5D5400628F2C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ABC56911F7A005D00826282 /* Images.xcassets */; };
-		28DE281F21B10C0900251F49 /* UPSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 28DE27AC21B10C0800251F49 /* UPSDK.bundle */; };
-		28DE282021B10C0900251F49 /* UPSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28DE27AD21B10C0800251F49 /* UPSDK.framework */; };
-		28DE284A21B10C0900251F49 /* UpAdsBrigeJs.mm in Sources */ = {isa = PBXBuildFile; fileRef = 28DE281E21B10C0800251F49 /* UpAdsBrigeJs.mm */; };
-		28DE284C21B10C5600251F49 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28DE284B21B10C5600251F49 /* MediaPlayer.framework */; };
-		28DE284E21B10C8400251F49 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28DE284D21B10C8400251F49 /* CoreMedia.framework */; };
-		28DE285021B10C9400251F49 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28DE284F21B10C9400251F49 /* CoreGraphics.framework */; };
-		28DE285221B10CA000251F49 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28DE285121B10CA000251F49 /* CFNetwork.framework */; };
-		28DE285421B10CAA00251F49 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28DE285321B10CAA00251F49 /* WebKit.framework */; };
-		28DE285621B10CB600251F49 /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28DE285521B10CB600251F49 /* WatchConnectivity.framework */; };
-		28DE285821B10CBF00251F49 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28DE285721B10CBF00251F49 /* SystemConfiguration.framework */; };
-		28DE285A21B10CC700251F49 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28DE285921B10CC700251F49 /* StoreKit.framework */; };
-		28DE285C21B10CCF00251F49 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28DE285B21B10CCF00251F49 /* Social.framework */; };
-		28DE285E21B10CD800251F49 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28DE285D21B10CD800251F49 /* MessageUI.framework */; };
-		28DE286021B10CDF00251F49 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28DE285F21B10CDE00251F49 /* JavaScriptCore.framework */; };
-		28DE286221B10CE900251F49 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28DE286121B10CE900251F49 /* EventKit.framework */; };
-		28DE286421B10CEF00251F49 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28DE286321B10CEF00251F49 /* CoreTelephony.framework */; };
-		28DE286621B10CFA00251F49 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28DE286521B10CFA00251F49 /* AVFoundation.framework */; };
-		28DE286821B10D0500251F49 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28DE286721B10D0500251F49 /* AudioToolbox.framework */; };
-		28DE286A21B10D0D00251F49 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28DE286921B10D0D00251F49 /* AdSupport.framework */; };
-		28DE286C21B10D1500251F49 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28DE286B21B10D1500251F49 /* GLKit.framework */; };
-		28DE286E21B10D2100251F49 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28DE286D21B10D2100251F49 /* CoreMotion.framework */; };
-		28DE287021B10D4000251F49 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 28DE286F21B10D4000251F49 /* libxml2.tbd */; };
-		28DE287221B10D4C00251F49 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 28DE287121B10D4B00251F49 /* libc++.tbd */; };
-		28DE287421B10D5300251F49 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28DE287321B10D5300251F49 /* SafariServices.framework */; };
-		28DE287621B10D5E00251F49 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28DE287521B10D5E00251F49 /* CoreLocation.framework */; };
-		28DE287821B10D6900251F49 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28DE287721B10D6900251F49 /* EventKitUI.framework */; };
-		28DE287A21B10D6F00251F49 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28DE287921B10D6F00251F49 /* MobileCoreServices.framework */; };
-		28DE287C21B10D7700251F49 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28DE287B21B10D7700251F49 /* GameController.framework */; };
 		294D7D801D0D668F002CE7B7 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 294D7D7F1D0D668F002CE7B7 /* CoreText.framework */; };
 		4D3EB2521F8F4A44007DA644 /* jsb_module_register.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D3EB2511F8F4A44007DA644 /* jsb_module_register.cpp */; };
 		4D3EB26E1F8F77D7007DA644 /* jsb_module_register.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D3EB2511F8F4A44007DA644 /* jsb_module_register.cpp */; };
@@ -87,6 +59,7 @@
 		ABE456E91D34F88A00F1F400 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE456E81D34F88A00F1F400 /* SystemConfiguration.framework */; };
 		ABE456EB1D34F89000F1F400 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE456EA1D34F89000F1F400 /* GameController.framework */; };
 		BA3A85EC1A724AE900924D24 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA3A85EB1A724AE900924D24 /* Security.framework */; };
+		BA4E718119EB6E3F00932425 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4E718019EB6E3E00932425 /* MediaPlayer.framework */; };
 		BAEE4D841AC40C11003BEB0F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAEE4D831AC40C11003BEB0F /* Security.framework */; };
 		BAF426FB19484B3E002B22EF /* script in Resources */ = {isa = PBXBuildFile; fileRef = BAF426FA19484B3E002B22EF /* script */; };
 		BAF426FC19484B3E002B22EF /* script in Resources */ = {isa = PBXBuildFile; fileRef = BAF426FA19484B3E002B22EF /* script */; };
@@ -171,44 +144,15 @@
 		1A82F5FA169AC92500C4B13A /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		1A96A4F2174A3432008653A9 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcurl.a; path = "../../cocos2d-x/cocos2dx/platform/third_party/ios/libraries/libcurl.a"; sourceTree = "<group>"; };
 		1ABC56911F7A005D00826282 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ios/Images.xcassets; sourceTree = "<group>"; };
-		1AC6FB34180E9ACB004C840B /* cocos2d_libs.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2d_libs.xcodeproj; path = "/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/build/cocos2d_libs.xcodeproj"; sourceTree = "<absolute>"; };
+		1AC6FB34180E9ACB004C840B /* cocos2d_libs.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2d_libs.xcodeproj; path = "E:\CocosCreator\resources\cocos2d-x/build/cocos2d_libs.xcodeproj"; sourceTree = "<absolute>"; };
 		1ACA99221F550A20002DE225 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		1ACA99241F550A28002DE225 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		1AFFCD7B1F7A5D4F00628F2C /* LaunchScreenBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LaunchScreenBackground.png; path = ios/LaunchScreenBackground.png; sourceTree = "<group>"; };
 		1AFFCD7C1F7A5D4F00628F2C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ios/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		28DE27AC21B10C0800251F49 /* UPSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UPSDK.bundle; sourceTree = "<group>"; };
-		28DE27AD21B10C0800251F49 /* UPSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UPSDK.framework; sourceTree = "<group>"; };
-		28DE281D21B10C0800251F49 /* UpAdsBrigeJs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpAdsBrigeJs.h; sourceTree = "<group>"; };
-		28DE281E21B10C0800251F49 /* UpAdsBrigeJs.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UpAdsBrigeJs.mm; sourceTree = "<group>"; };
-		28DE284B21B10C5600251F49 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
-		28DE284D21B10C8400251F49 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
-		28DE284F21B10C9400251F49 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		28DE285121B10CA000251F49 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
-		28DE285321B10CAA00251F49 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
-		28DE285521B10CB600251F49 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
-		28DE285721B10CBF00251F49 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		28DE285921B10CC700251F49 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
-		28DE285B21B10CCF00251F49 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Social.framework; sourceTree = DEVELOPER_DIR; };
-		28DE285D21B10CD800251F49 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/MessageUI.framework; sourceTree = DEVELOPER_DIR; };
-		28DE285F21B10CDE00251F49 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		28DE286121B10CE900251F49 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/EventKit.framework; sourceTree = DEVELOPER_DIR; };
-		28DE286321B10CEF00251F49 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
-		28DE286521B10CFA00251F49 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		28DE286721B10D0500251F49 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
-		28DE286921B10D0D00251F49 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/AdSupport.framework; sourceTree = DEVELOPER_DIR; };
-		28DE286B21B10D1500251F49 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/GLKit.framework; sourceTree = DEVELOPER_DIR; };
-		28DE286D21B10D2100251F49 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
-		28DE286F21B10D4000251F49 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/lib/libxml2.tbd; sourceTree = DEVELOPER_DIR; };
-		28DE287121B10D4B00251F49 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/lib/libc++.tbd"; sourceTree = DEVELOPER_DIR; };
-		28DE287321B10D5300251F49 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/SafariServices.framework; sourceTree = DEVELOPER_DIR; };
-		28DE287521B10D5E00251F49 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
-		28DE287721B10D6900251F49 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/EventKitUI.framework; sourceTree = DEVELOPER_DIR; };
-		28DE287921B10D6F00251F49 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
-		28DE287B21B10D7700251F49 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/GameController.framework; sourceTree = DEVELOPER_DIR; };
 		294D7D7F1D0D668F002CE7B7 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
 		4D3EB2511F8F4A44007DA644 /* jsb_module_register.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = jsb_module_register.cpp; sourceTree = "<group>"; };
-		4D697BD91CBD301C00A5AF29 /* libjs_static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjs_static.a; path = "/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/external/ios/libs/libjs_static.a"; sourceTree = "<absolute>"; };
-		4D697BDC1CBD303100A5AF29 /* libjs_static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjs_static.a; path = "/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/external/mac/libs/libjs_static.a"; sourceTree = "<absolute>"; };
+		4D697BD91CBD301C00A5AF29 /* libjs_static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjs_static.a; path = "E:\CocosCreator\resources\cocos2d-x/external/ios/libs/libjs_static.a"; sourceTree = "<absolute>"; };
+		4D697BDC1CBD303100A5AF29 /* libjs_static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjs_static.a; path = "E:\CocosCreator\resources\cocos2d-x/external/mac/libs/libjs_static.a"; sourceTree = "<absolute>"; };
 		502380DB17EBB88200990C9B /* libcurl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcurl.dylib; path = usr/lib/libcurl.dylib; sourceTree = SDKROOT; };
 		509D4AAA17EBB24E00697056 /* hello_world-desktop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hello_world-desktop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		509D4AAB17EBB2AB00697056 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppController.h; path = ios/AppController.h; sourceTree = "<group>"; };
@@ -242,9 +186,9 @@
 		BA4E718019EB6E3E00932425 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
 		BA4E718219EB6E4600932425 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/GameController.framework; sourceTree = DEVELOPER_DIR; };
 		BAEE4D831AC40C11003BEB0F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		BAF426FA19484B3E002B22EF /* script */ = {isa = PBXFileReference; lastKnownFileType = folder; name = script; path = "/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/cocos/scripting/js-bindings/script"; sourceTree = "<absolute>"; };
+		BAF426FA19484B3E002B22EF /* script */ = {isa = PBXFileReference; lastKnownFileType = folder; name = script; path = "E:\CocosCreator\resources\cocos2d-x/cocos/scripting/js-bindings/script"; sourceTree = "<absolute>"; };
 		C03780EA18BEE0E400FE4F13 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; name = src; path = ../../../src; sourceTree = "<group>"; };
-		C037820118BF76AF00FE4F13 /* cocos2d_js_bindings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2d_js_bindings.xcodeproj; path = "/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/cocos/scripting/js-bindings/proj.ios_mac/cocos2d_js_bindings.xcodeproj"; sourceTree = "<absolute>"; };
+		C037820118BF76AF00FE4F13 /* cocos2d_js_bindings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2d_js_bindings.xcodeproj; path = "E:\CocosCreator\resources\cocos2d-x/cocos/scripting/js-bindings/proj.ios_mac/cocos2d_js_bindings.xcodeproj"; sourceTree = "<absolute>"; };
 		C06E23CB18CEFE680093C81A /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C0799CB518BAE62000E9C828 /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; name = res; path = ../../../res; sourceTree = "<group>"; };
 		D454520B156E22BD00887EB5 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
@@ -286,31 +230,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28DE287C21B10D7700251F49 /* GameController.framework in Frameworks */,
-				28DE287A21B10D6F00251F49 /* MobileCoreServices.framework in Frameworks */,
-				28DE287821B10D6900251F49 /* EventKitUI.framework in Frameworks */,
-				28DE287621B10D5E00251F49 /* CoreLocation.framework in Frameworks */,
-				28DE287421B10D5300251F49 /* SafariServices.framework in Frameworks */,
-				28DE287221B10D4C00251F49 /* libc++.tbd in Frameworks */,
-				28DE287021B10D4000251F49 /* libxml2.tbd in Frameworks */,
-				28DE286E21B10D2100251F49 /* CoreMotion.framework in Frameworks */,
-				28DE286C21B10D1500251F49 /* GLKit.framework in Frameworks */,
-				28DE286A21B10D0D00251F49 /* AdSupport.framework in Frameworks */,
-				28DE286821B10D0500251F49 /* AudioToolbox.framework in Frameworks */,
-				28DE286621B10CFA00251F49 /* AVFoundation.framework in Frameworks */,
-				28DE286421B10CEF00251F49 /* CoreTelephony.framework in Frameworks */,
-				28DE286221B10CE900251F49 /* EventKit.framework in Frameworks */,
-				28DE286021B10CDF00251F49 /* JavaScriptCore.framework in Frameworks */,
-				28DE285E21B10CD800251F49 /* MessageUI.framework in Frameworks */,
-				28DE285C21B10CCF00251F49 /* Social.framework in Frameworks */,
-				28DE285A21B10CC700251F49 /* StoreKit.framework in Frameworks */,
-				28DE285821B10CBF00251F49 /* SystemConfiguration.framework in Frameworks */,
-				28DE285621B10CB600251F49 /* WatchConnectivity.framework in Frameworks */,
-				28DE285421B10CAA00251F49 /* WebKit.framework in Frameworks */,
-				28DE285221B10CA000251F49 /* CFNetwork.framework in Frameworks */,
-				28DE285021B10C9400251F49 /* CoreGraphics.framework in Frameworks */,
-				28DE284E21B10C8400251F49 /* CoreMedia.framework in Frameworks */,
-				28DE284C21B10C5600251F49 /* MediaPlayer.framework in Frameworks */,
 				1A37E9DA200DEF120078AF72 /* SystemConfiguration.framework in Frameworks */,
 				1ACA99251F550A28002DE225 /* JavaScriptCore.framework in Frameworks */,
 				1A499EBD1F0CDDD9004E6AEC /* libicucore.A.tbd in Frameworks */,
@@ -324,9 +243,9 @@
 				4DD5E6B11CDAF65C0046171E /* libcocos2d iOS.a in Frameworks */,
 				FA676C761C71AFA200E091E3 /* libiconv.dylib in Frameworks */,
 				BA3A85EC1A724AE900924D24 /* Security.framework in Frameworks */,
+				BA4E718119EB6E3F00932425 /* MediaPlayer.framework in Frameworks */,
 				D6B061241803AB9F0077942B /* CoreMotion.framework in Frameworks */,
 				1A82F5FB169AC92500C4B13A /* libsqlite3.dylib in Frameworks */,
-				28DE282021B10C0900251F49 /* UPSDK.framework in Frameworks */,
 				D454520C156E22BD00887EB5 /* libz.dylib in Frameworks */,
 				A92275421517C094001B78AA /* QuartzCore.framework in Frameworks */,
 				A92275441517C094001B78AA /* OpenGLES.framework in Frameworks */,
@@ -351,42 +270,6 @@
 				C03780EA18BEE0E400FE4F13 /* src */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
-		};
-		28DE27A921B10C0800251F49 /* UPLTV */ = {
-			isa = PBXGroup;
-			children = (
-				28DE27AA21B10C0800251F49 /* UPLTVSDK */,
-				28DE281C21B10C0800251F49 /* BrigeJS */,
-			);
-			name = UPLTV;
-			path = ios/UPLTV;
-			sourceTree = "<group>";
-		};
-		28DE27AA21B10C0800251F49 /* UPLTVSDK */ = {
-			isa = PBXGroup;
-			children = (
-				28DE27AB21B10C0800251F49 /* UPSDKBundle */,
-				28DE27AD21B10C0800251F49 /* UPSDK.framework */,
-			);
-			path = UPLTVSDK;
-			sourceTree = "<group>";
-		};
-		28DE27AB21B10C0800251F49 /* UPSDKBundle */ = {
-			isa = PBXGroup;
-			children = (
-				28DE27AC21B10C0800251F49 /* UPSDK.bundle */,
-			);
-			path = UPSDKBundle;
-			sourceTree = "<group>";
-		};
-		28DE281C21B10C0800251F49 /* BrigeJS */ = {
-			isa = PBXGroup;
-			children = (
-				28DE281D21B10C0800251F49 /* UpAdsBrigeJs.h */,
-				28DE281E21B10C0800251F49 /* UpAdsBrigeJs.mm */,
-			);
-			path = BrigeJS;
 			sourceTree = "<group>";
 		};
 		4DD0DB491CDAF5F40099AD86 /* Products */ = {
@@ -445,31 +328,6 @@
 		A92275401517C094001B78AA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				28DE287B21B10D7700251F49 /* GameController.framework */,
-				28DE287921B10D6F00251F49 /* MobileCoreServices.framework */,
-				28DE287721B10D6900251F49 /* EventKitUI.framework */,
-				28DE287521B10D5E00251F49 /* CoreLocation.framework */,
-				28DE287321B10D5300251F49 /* SafariServices.framework */,
-				28DE287121B10D4B00251F49 /* libc++.tbd */,
-				28DE286F21B10D4000251F49 /* libxml2.tbd */,
-				28DE286D21B10D2100251F49 /* CoreMotion.framework */,
-				28DE286B21B10D1500251F49 /* GLKit.framework */,
-				28DE286921B10D0D00251F49 /* AdSupport.framework */,
-				28DE286721B10D0500251F49 /* AudioToolbox.framework */,
-				28DE286521B10CFA00251F49 /* AVFoundation.framework */,
-				28DE286321B10CEF00251F49 /* CoreTelephony.framework */,
-				28DE286121B10CE900251F49 /* EventKit.framework */,
-				28DE285F21B10CDE00251F49 /* JavaScriptCore.framework */,
-				28DE285D21B10CD800251F49 /* MessageUI.framework */,
-				28DE285B21B10CCF00251F49 /* Social.framework */,
-				28DE285921B10CC700251F49 /* StoreKit.framework */,
-				28DE285721B10CBF00251F49 /* SystemConfiguration.framework */,
-				28DE285521B10CB600251F49 /* WatchConnectivity.framework */,
-				28DE285321B10CAA00251F49 /* WebKit.framework */,
-				28DE285121B10CA000251F49 /* CFNetwork.framework */,
-				28DE284F21B10C9400251F49 /* CoreGraphics.framework */,
-				28DE284D21B10C8400251F49 /* CoreMedia.framework */,
-				28DE284B21B10C5600251F49 /* MediaPlayer.framework */,
 				1A37E9D9200DEF110078AF72 /* SystemConfiguration.framework */,
 				1A37E9DB200DEF190078AF72 /* SystemConfiguration.framework */,
 				1ACA99241F550A28002DE225 /* JavaScriptCore.framework */,
@@ -513,7 +371,6 @@
 		D45446CC156DE73F00887EB5 /* ios */ = {
 			isa = PBXGroup;
 			children = (
-				28DE27A921B10C0800251F49 /* UPLTV */,
 				1AFFCD7C1F7A5D4F00628F2C /* LaunchScreen.storyboard */,
 				1AFFCD7B1F7A5D4F00628F2C /* LaunchScreenBackground.png */,
 				1ABC56911F7A005D00826282 /* Images.xcassets */,
@@ -587,11 +444,6 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0500;
-				TargetAttributes = {
-					A922753C1517C094001B78AA = {
-						ProvisioningStyle = Manual;
-					};
-				};
 			};
 			buildConfigurationList = A92275371517C094001B78AA /* Build configuration list for PBXProject "hello_world" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -599,7 +451,6 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				"zh-Hans",
 			);
 			mainGroup = A92275321517C094001B78AA;
 			productRefGroup = A922753E1517C094001B78AA /* Products */;
@@ -672,7 +523,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AFFCD7F1F7A5D5400628F2C /* Images.xcassets in Resources */,
-				28DE281F21B10C0900251F49 /* UPSDK.bundle in Resources */,
 				BAF426FB19484B3E002B22EF /* script in Resources */,
 				1AFFCD7E1F7A5D5400628F2C /* LaunchScreenBackground.png in Resources */,
 				1AE159EC18C9DF3600FCA372 /* project.json in Resources */,
@@ -704,7 +554,6 @@
 				D4545227156E28EF00887EB5 /* AppDelegate.cpp in Sources */,
 				509D4AC817EBB2AB00697056 /* main.m in Sources */,
 				4D3EB2521F8F4A44007DA644 /* jsb_module_register.cpp in Sources */,
-				28DE284A21B10C0900251F49 /* UpAdsBrigeJs.mm in Sources */,
 				509D4ABC17EBB2AB00697056 /* AppController.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -752,10 +601,10 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = mac/Info.plist;
-				LIBRARY_SEARCH_PATHS = "/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/external/mac/libs";
+				LIBRARY_SEARCH_PATHS = "E:\CocosCreator\resources\cocos2d-x/external/mac/libs";
 				OTHER_LDFLAGS = "";
 				SDKROOT = macosx;
-				USER_HEADER_SEARCH_PATHS = "$(inherited) /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/cocos/platform/mac /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/external/glfw3/include/mac /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/external/mac/include/ /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/external/mac/include/spidermonkey";
+				USER_HEADER_SEARCH_PATHS = "$(inherited) E:\CocosCreator\resources\cocos2d-x/cocos/platform/mac E:\CocosCreator\resources\cocos2d-x/external/glfw3/include/mac E:\CocosCreator\resources\cocos2d-x/external/mac/include/ E:\CocosCreator\resources\cocos2d-x/external/mac/include/spidermonkey";
 			};
 			name = Debug;
 		};
@@ -776,10 +625,10 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = mac/Info.plist;
-				LIBRARY_SEARCH_PATHS = "/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/external/mac/libs";
+				LIBRARY_SEARCH_PATHS = "E:\CocosCreator\resources\cocos2d-x/external/mac/libs";
 				OTHER_LDFLAGS = "";
 				SDKROOT = macosx;
-				USER_HEADER_SEARCH_PATHS = "$(inherited) /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/cocos/platform/mac /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/external/glfw3/include/mac /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/external/mac/include/ /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/external/mac/include/spidermonkey";
+				USER_HEADER_SEARCH_PATHS = "$(inherited) E:\CocosCreator\resources\cocos2d-x/cocos/platform/mac E:\CocosCreator\resources\cocos2d-x/external/glfw3/include/mac E:\CocosCreator\resources\cocos2d-x/external/mac/include/ E:\CocosCreator\resources\cocos2d-x/external/mac/include/spidermonkey";
 			};
 			name = Release;
 		};
@@ -804,7 +653,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "/Applications/CocosCreator.app/Contents/Resources/cocos2d-x /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/cocos /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/cocos/base /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/cocos/physics /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/cocos/math/kazmath /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/cocos/2d /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/cocos/gui /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/cocos/network /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/cocos/audio/include /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/cocos/editor-support /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/extensions /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/external /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/external/sources /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/external/chipmunk/include/chipmunk /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/cocos/scripting/js-bindings/auto /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/cocos/scripting/js-bindings/manual";
+				USER_HEADER_SEARCH_PATHS = "E:\CocosCreator\resources\cocos2d-x E:\CocosCreator\resources\cocos2d-x/cocos E:\CocosCreator\resources\cocos2d-x/cocos/base E:\CocosCreator\resources\cocos2d-x/cocos/physics E:\CocosCreator\resources\cocos2d-x/cocos/math/kazmath E:\CocosCreator\resources\cocos2d-x/cocos/2d E:\CocosCreator\resources\cocos2d-x/cocos/gui E:\CocosCreator\resources\cocos2d-x/cocos/network E:\CocosCreator\resources\cocos2d-x/cocos/audio/include E:\CocosCreator\resources\cocos2d-x/cocos/editor-support E:\CocosCreator\resources\cocos2d-x/extensions E:\CocosCreator\resources\cocos2d-x/external E:\CocosCreator\resources\cocos2d-x/external/sources E:\CocosCreator\resources\cocos2d-x/external/chipmunk/include/chipmunk E:\CocosCreator\resources\cocos2d-x/cocos/scripting/js-bindings/auto E:\CocosCreator\resources\cocos2d-x/cocos/scripting/js-bindings/manual";
 			};
 			name = Debug;
 		};
@@ -826,7 +675,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "/Applications/CocosCreator.app/Contents/Resources/cocos2d-x /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/cocos /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/cocos/base /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/cocos/physics /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/cocos/math/kazmath /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/cocos/2d /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/cocos/gui /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/cocos/network /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/cocos/audio/include /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/cocos/editor-support /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/extensions /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/external /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/external/sources /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/external/chipmunk/include/chipmunk /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/cocos/scripting/js-bindings/auto /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/cocos/scripting/js-bindings/manual";
+				USER_HEADER_SEARCH_PATHS = "E:\CocosCreator\resources\cocos2d-x E:\CocosCreator\resources\cocos2d-x/cocos E:\CocosCreator\resources\cocos2d-x/cocos/base E:\CocosCreator\resources\cocos2d-x/cocos/physics E:\CocosCreator\resources\cocos2d-x/cocos/math/kazmath E:\CocosCreator\resources\cocos2d-x/cocos/2d E:\CocosCreator\resources\cocos2d-x/cocos/gui E:\CocosCreator\resources\cocos2d-x/cocos/network E:\CocosCreator\resources\cocos2d-x/cocos/audio/include E:\CocosCreator\resources\cocos2d-x/cocos/editor-support E:\CocosCreator\resources\cocos2d-x/extensions E:\CocosCreator\resources\cocos2d-x/external E:\CocosCreator\resources\cocos2d-x/external/sources E:\CocosCreator\resources\cocos2d-x/external/chipmunk/include/chipmunk E:\CocosCreator\resources\cocos2d-x/cocos/scripting/js-bindings/auto E:\CocosCreator\resources\cocos2d-x/cocos/scripting/js-bindings/manual";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -837,36 +686,8 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
 				COMPRESS_PNG_FILES = NO;
-				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/ios/UPLTV/UPLTVSDK",
-					"$(PROJECT_DIR)/ios/UPLTV/ThirdFramework/BatMobi-SDK-2.4.5",
-					"$(PROJECT_DIR)/ios/UPLTV/ThirdFramework/IronSource-SDK-6.7.9",
-					"$(PROJECT_DIR)/ios/UPLTV/ThirdFramework/Vungle-SDK-6.2.0",
-					"$(PROJECT_DIR)/ios/UPLTV/ThirdFramework/Toutiao-SDK-1.9.6",
-					"$(PROJECT_DIR)/ios/UPLTV/ThirdFramework/Mytarget-SDK-4.7.9",
-					"$(PROJECT_DIR)/ios/UPLTV/ThirdFramework/PlayableAds-SDK-1.0.7",
-					"$(PROJECT_DIR)/ios/UPLTV/ThirdFramework/Mintegral-SDK-4.3.0",
-					"$(PROJECT_DIR)/ios/UPLTV/ThirdFramework/Centrixlink-SDK-2.5.2",
-					"$(PROJECT_DIR)/ios/UPLTV/ThirdFramework/Chartboost-SDK-7.2.0",
-					"$(PROJECT_DIR)/ios/UPLTV/ThirdFramework/Amazon-SDK-2.2.15",
-					"$(PROJECT_DIR)/ios/UPLTV/ThirdFramework/OneWaySDK-2.1.0",
-					"$(PROJECT_DIR)/ios/UPLTV/ThirdFramework/FBAudienceNetwork-4.99.3",
-					"$(PROJECT_DIR)/ios/UPLTV/ThirdFramework/InMobi-SDK-7.0.1",
-					"$(PROJECT_DIR)/ios/UPLTV/ThirdFramework/GoogleMobileAdsSdk-7.32.88",
-					"$(PROJECT_DIR)/ios/UPLTV/ThirdFramework/Youlan-SDK-1.0.4",
-					"$(PROJECT_DIR)/ios/UPLTV/ThirdFramework/Maio-SDK-1.2.18",
-					"$(PROJECT_DIR)/ios/UPLTV/ThirdFramework/AdColony-SDK-3.3.5",
-					"$(PROJECT_DIR)/ios/UPLTV/ThirdFramework/Baidu-SDK-4.5",
-					"$(PROJECT_DIR)/ios/UPLTV/ThirdFramework/Tapjoy-SDK-11.12.2",
-					"$(PROJECT_DIR)/ios/UPLTV/ThirdFramework/AppLovin-SDK-5.0.1",
-					"$(PROJECT_DIR)/ios/UPLTV/ThirdFramework/Unity-SDK-3.0.0",
-					"$(PROJECT_DIR)/ios/UPLTV/ThirdFramework/NendAd-SDK-4.0.1",
-				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -874,27 +695,21 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					CC_TARGET_OS_IPHONE,
 					"$(inherited)",
-					PACKAGE_AS_PLACEHOLDER,
+					PACKAGE_AS,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = ios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_SEARCH_PATHS = (
-					"/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/external/ios/libs",
+					"E:\CocosCreator\resources\cocos2d-x/external/ios/libs",
 					"$(SRCROOT)/ios/anysdk",
-					"$(PROJECT_DIR)/ios/UPLTV/ThirdFramework/Domob-SDK-3.6.0",
-					"$(PROJECT_DIR)/ios/UPLTV/ThirdFramework/Appnext-SDK-1.9.1",
-					"$(PROJECT_DIR)/ios/UPLTV/ThirdFramework/ChanceAd-SDK-6.4.3",
-					"$(PROJECT_DIR)/ios/UPLTV/ThirdFramework/GDT-SDK-4.8.1",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.avidly.adsdk.demo.ios.copy;
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				STRIP_PNG_TEXT = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "$(inherited) /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/cocos/platform/ios /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/plugin/jsbindings/auto /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/plugin/jsbindings/manual /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/external/ios/include /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/external/ios/include/spidermonkey /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/external/ios/include/anysdk/appstore/";
+				USER_HEADER_SEARCH_PATHS = "$(inherited) E:\CocosCreator\resources\cocos2d-x/cocos/platform/ios E:\CocosCreator\resources\cocos2d-x/plugin/jsbindings/auto E:\CocosCreator\resources\cocos2d-x/plugin/jsbindings/manual E:\CocosCreator\resources\cocos2d-x/external/ios/include E:\CocosCreator\resources\cocos2d-x/external/ios/include/spidermonkey E:\CocosCreator\resources\cocos2d-x/external/ios/include/anysdk/common/";
 				VALID_ARCHS = "arm64 armv7";
 			};
 			name = Debug;
@@ -905,63 +720,29 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
 				COMPRESS_PNG_FILES = NO;
-				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/ios/UPLTV/UPLTVSDK",
-					"$(PROJECT_DIR)/ios/UPLTV/ThirdFramework/BatMobi-SDK-2.4.5",
-					"$(PROJECT_DIR)/ios/UPLTV/ThirdFramework/IronSource-SDK-6.7.9",
-					"$(PROJECT_DIR)/ios/UPLTV/ThirdFramework/Vungle-SDK-6.2.0",
-					"$(PROJECT_DIR)/ios/UPLTV/ThirdFramework/Toutiao-SDK-1.9.6",
-					"$(PROJECT_DIR)/ios/UPLTV/ThirdFramework/Mytarget-SDK-4.7.9",
-					"$(PROJECT_DIR)/ios/UPLTV/ThirdFramework/PlayableAds-SDK-1.0.7",
-					"$(PROJECT_DIR)/ios/UPLTV/ThirdFramework/Mintegral-SDK-4.3.0",
-					"$(PROJECT_DIR)/ios/UPLTV/ThirdFramework/Centrixlink-SDK-2.5.2",
-					"$(PROJECT_DIR)/ios/UPLTV/ThirdFramework/Chartboost-SDK-7.2.0",
-					"$(PROJECT_DIR)/ios/UPLTV/ThirdFramework/Amazon-SDK-2.2.15",
-					"$(PROJECT_DIR)/ios/UPLTV/ThirdFramework/OneWaySDK-2.1.0",
-					"$(PROJECT_DIR)/ios/UPLTV/ThirdFramework/FBAudienceNetwork-4.99.3",
-					"$(PROJECT_DIR)/ios/UPLTV/ThirdFramework/InMobi-SDK-7.0.1",
-					"$(PROJECT_DIR)/ios/UPLTV/ThirdFramework/GoogleMobileAdsSdk-7.32.88",
-					"$(PROJECT_DIR)/ios/UPLTV/ThirdFramework/Youlan-SDK-1.0.4",
-					"$(PROJECT_DIR)/ios/UPLTV/ThirdFramework/Maio-SDK-1.2.18",
-					"$(PROJECT_DIR)/ios/UPLTV/ThirdFramework/AdColony-SDK-3.3.5",
-					"$(PROJECT_DIR)/ios/UPLTV/ThirdFramework/Baidu-SDK-4.5",
-					"$(PROJECT_DIR)/ios/UPLTV/ThirdFramework/Tapjoy-SDK-11.12.2",
-					"$(PROJECT_DIR)/ios/UPLTV/ThirdFramework/AppLovin-SDK-5.0.1",
-					"$(PROJECT_DIR)/ios/UPLTV/ThirdFramework/Unity-SDK-3.0.0",
-					"$(PROJECT_DIR)/ios/UPLTV/ThirdFramework/NendAd-SDK-4.0.1",
-				);
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ios/Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					CC_TARGET_OS_IPHONE,
 					"$(inherited)",
-					PACKAGE_AS_PLACEHOLDER,
+					PACKAGE_AS,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = ios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_SEARCH_PATHS = (
-					"/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/external/ios/libs",
+					"E:\CocosCreator\resources\cocos2d-x/external/ios/libs",
 					"$(SRCROOT)/ios/anysdk",
-					"$(PROJECT_DIR)/ios/UPLTV/ThirdFramework/Domob-SDK-3.6.0",
-					"$(PROJECT_DIR)/ios/UPLTV/ThirdFramework/Appnext-SDK-1.9.1",
-					"$(PROJECT_DIR)/ios/UPLTV/ThirdFramework/ChanceAd-SDK-6.4.3",
-					"$(PROJECT_DIR)/ios/UPLTV/ThirdFramework/GDT-SDK-4.8.1",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.avidly.adsdk.demo.ios.copy;
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				STRIP_PNG_TEXT = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "$(inherited) /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/cocos/platform/ios /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/plugin/jsbindings/auto /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/plugin/jsbindings/manual /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/external/ios/include /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/external/ios/include/spidermonkey /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/external/ios/include/anysdk/appstore/";
+				USER_HEADER_SEARCH_PATHS = "$(inherited) E:\CocosCreator\resources\cocos2d-x/cocos/platform/ios E:\CocosCreator\resources\cocos2d-x/plugin/jsbindings/auto E:\CocosCreator\resources\cocos2d-x/plugin/jsbindings/manual E:\CocosCreator\resources\cocos2d-x/external/ios/include E:\CocosCreator\resources\cocos2d-x/external/ios/include/spidermonkey E:\CocosCreator\resources\cocos2d-x/external/ios/include/anysdk/common/";
 				VALID_ARCHS = "arm64 armv7";
 			};
 			name = Release;

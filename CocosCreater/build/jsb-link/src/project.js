@@ -25,7 +25,7 @@ return o;
 }({
 HelloWorld: [ function(t, i, e) {
 "use strict";
-cc._RF.push(i, "280c3rsZJJKnZ9RqbALVwtK", "HelloWorld");
+cc._RF.push(i, "65f27BHYARK9phdPxnBAA99", "HelloWorld");
 var n = t("UPLTV").upltv;
 cc.bridgeInterface = t("UPLTV").bridgeInterface;
 cc.Class({
@@ -715,11 +715,11 @@ n(o);
 }, f = f || {
 upltvbridge: null,
 intSdk: function(t, i) {
-if (1 != u.initSdkSuccessed) {
+if (1 != cc.bridgeInterface.initSdkSuccessed) {
 l();
 if (void 0 != i && null != i && "function" == typeof i) {
 l();
-u.initVokeCall = i;
+cc.bridgeInterface.initVokeCall = i;
 }
 var e = "cc.bridgeInterface.vokeMethod", n = "cc.bridgeInterface.initSdkCallback";
 r();

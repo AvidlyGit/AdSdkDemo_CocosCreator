@@ -7,15 +7,13 @@ android {
     buildToolsVersion '26.0.2'
 
     defaultConfig {
-        applicationId "adam.lean.foreign"
+        applicationId "adam.lean.inland"
         minSdkVersion PROP_TARGET_SDK_VERSION
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
-//        multiDexEnabled true
-//        ndk {
-//            abiFilters 'armeabi-v7a', 'x86'
-//        }
+
+        multiDexEnabled true
 
         externalNativeBuild {
             ndkBuild {
@@ -25,9 +23,9 @@ android {
                     arguments 'NDK_TOOLCHAIN_VERSION=4.9'
                     arguments 'APP_PLATFORM=android-'+PROP_TARGET_SDK_VERSION
                     
-                    def module_paths = [project.file("/Applications/CocosCreator.app/Contents/Resources/cocos2d-x"),
-                                        project.file("/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/cocos"),
-                                        project.file("/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/external")]
+                    def module_paths = [project.file("E:/CocosCreator/resources/cocos2d-x"),
+                                        project.file("E:/CocosCreator/resources/cocos2d-x/cocos"),
+                                        project.file("E:/CocosCreator/resources/cocos2d-x/external")]
                     if (Os.isFamily(Os.FAMILY_WINDOWS)) {
                         arguments 'NDK_MODULE_PATH=' + module_paths.join(";")
                     }
@@ -72,7 +70,7 @@ android {
 
     buildTypes {
         release {
-            minifyEnabled true
+            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             if (project.hasProperty("RELEASE_STORE_FILE")) {
                 signingConfig signingConfigs.release
@@ -117,7 +115,7 @@ android.applicationVariants.all { variant ->
         }
 
         copy {
-            from "/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/cocos/scripting/js-bindings/script"
+            from "E:/CocosCreator/resources/cocos2d-x/cocos/scripting/js-bindings/script"
             into "${buildDir}/intermediates/assets/${variant.dirName}/script"
         }
     }
@@ -125,7 +123,7 @@ android.applicationVariants.all { variant ->
 
 repositories {
     flatDir {
-        dirs 'libs'
+        dirs 'libs', 'ads'
     }
 }
 
@@ -133,40 +131,18 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile project(':libcocos2dx')
 
-    //MultiDex
-//    compile 'com.android.support:multidex:1.0.1'
 
-    //sdk lib
-    compile(name: 'UPAdsSdk_CocosJs_3.0.06_dex', ext: 'aar')
     compile 'com.android.support:appcompat-v7:26.1.0'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.android.support:multidex:1.0.1'
 
+    compile(name: 'UPAdsSdk_CocosCreator_3.0.06_dex', ext: 'aar')
+    compile(name: 'android-gif-drawable', ext: 'aar') //for toutiao
 
-    //thirdLibrary
-    compile(name: 'gson-2.7', ext: 'jar') // for vungle and youappi
-    compile(name: 'palette-v7-26.1.0', ext: 'aar') // for dap
-
-    compile 'com.google.android.gms:play-services-ads:16.0.0'
-
-    compile(name: 'adcolony_ads', ext: 'aar')
-    compile(name: 'amazon_ads', ext: 'aar')
-    compile(name: 'applovin_ads', ext: 'aar')
-    compile(name: 'appnext_ads', ext: 'aar')
-    compile(name: 'appnext_core', ext: 'aar')
-    compile(name: 'batmobi_ads', ext: 'aar')
-    compile(name: 'chartboost_ads', ext: 'aar')
-    compile(name: 'facebook_ads', ext: 'aar')
-    compile(name: 'facebook_exo_player', ext: 'aar')
-    compile(name: 'ironsource_ads', ext: 'aar')
-    compile(name: 'mobpower_ads', ext: 'aar')
     compile(name: 'mobvista_ads', ext: 'aar')
-    compile(name: 'tapjoy_ads', ext: 'aar')
-    compile(name: 'unity_ads', ext: 'aar')
+    compile(name: 'oneway_ads', ext: 'aar')
+    compile(name: 'playable_ads', ext: 'aar')
     compile(name: 'vungle_ads', ext: 'aar')
-    compile(name: 'youappi_ads', ext: 'aar')
-    compile(name: 'dap_ads_cw', ext: 'aar')
-    compile(name: 'dap_ads_vd', ext: 'aar')
-    compile(name: 'displayio_ads', ext: 'aar')
-
-
+    compile(name: 'gdt_ads', ext: 'aar')
+    compile(name: 'toutiao_ads', ext: 'aar')
 }

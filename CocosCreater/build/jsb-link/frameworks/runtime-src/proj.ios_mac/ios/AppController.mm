@@ -27,7 +27,6 @@
 #import "AppController.h"
 #import "cocos2d.h"
 #import "AppDelegate.h"
-#import <AdSupport/AdSupport.h>
 #import "RootViewController.h"
 #import "platform/ios/CCEAGLView-ios.h"
 
@@ -67,10 +66,6 @@ static AppDelegate* s_sharedApplication = nullptr;
     // Use RootViewController to manage CCEAGLView
     _viewController = [[RootViewController alloc]init];
     _viewController.wantsFullScreenLayout = YES;
-    
-    
-    NSString *idfa = [[[ASIdentifierManager sharedManager] advertisingIdentifier] UUIDString];
-    NSLog(@"+++++++++ %@", idfa);
 
 
     // Set RootViewController to window

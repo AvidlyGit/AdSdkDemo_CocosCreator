@@ -510,14 +510,14 @@ var upltv = upltv || {
     */
     intSdk: function intSdk(zone, callback) {
 
-        if (bridgeInterface.initSdkSuccessed == true) {
+        if (cc.bridgeInterface.initSdkSuccessed == true) {
             printLog("===> js intSdk don't called again with zone:" + zone);
             return;
         }
         printLog("===> js intSdk call with zone: " + zone);
         if (callback != undefined && callback != null && typeof callback == "function") {
             printLog("===> js set initVokeCall...");
-            bridgeInterface.initVokeCall = callback;
+            cc.bridgeInterface.initVokeCall = callback;
         }
 
         var vokecall = "cc.bridgeInterface.vokeMethod";
