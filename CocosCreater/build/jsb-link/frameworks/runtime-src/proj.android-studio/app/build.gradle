@@ -139,7 +139,7 @@ dependencies {
     compile(name: 'UPAdsSdk_CocosCreator_3.0.06_dex', ext: 'aar')
     compile(name: 'android-gif-drawable', ext: 'aar') //for toutiao
 
-    compile(name: 'mobvista_ads', ext: 'aar')
+    compile(name: 'mintegral_ads', ext: 'aar')
     compile(name: 'oneway_ads', ext: 'aar')
     compile(name: 'playable_ads', ext: 'aar')
     compile(name: 'vungle_ads', ext: 'aar')

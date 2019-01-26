@@ -290,6 +290,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Gradle: com.android.support.constraint:constraint-layout-solver:1.0.2@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:animated-vector-drawable-26.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: mintegral_ads:@aar" level="project" />
     <orderEntry type="library" name="Gradle: __local_aars__:E.\CocosCreator\resources\cocos2d-x\cocos\platform\android\java\libs\httpclient-4.4.1.1.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: __local_aars__:E.\CocosCreator\resources\cocos2d-x\cocos\platform\android\java\libs\libcocosanalytics.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: oneway_ads:@aar" level="project" />
@@ -314,7 +315,6 @@
     <orderEntry type="library" name="Gradle: vungle_ads:@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:support-core-utils-26.1.0" level="project" />
     <orderEntry type="library" name="Gradle: __local_aars__:E.\github\AdSdkDemo_CocosCreator\CocosCreater\build\jsb-link\frameworks\runtime-src\proj.android-studio\app\libs\gson-2.7.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="Gradle: mobvista_ads:@aar" level="project" />
     <orderEntry type="library" name="Gradle: playable_ads:@aar" level="project" />
     <orderEntry type="library" name="Gradle: android.arch.lifecycle:runtime-1.0.0" level="project" />
     <orderEntry type="module" module-name="libcocos2dx" />
