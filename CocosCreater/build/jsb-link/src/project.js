@@ -282,6 +282,12 @@ jsb.reflection.callStaticMethod(n, "hideTopBanner", "()V");
 hideAndroidBannerAdAtBottom: function() {
 jsb.reflection.callStaticMethod(n, "hideBottomBanner", "()V");
 },
+showAndroidIconAdAt: function(t, i, e, o, s, l) {
+jsb.reflection.callStaticMethod(n, "showIconAd", "(IIIIILjava/lang/String;)V", t, i, e, o, s, l);
+},
+removeAndroidIconAdAt: function(t) {
+jsb.reflection.callStaticMethod(n, "removeIconAd", "(Ljava/lang/String;)V", t);
+},
 loadAndroidAdsByManual: function() {
 jsb.reflection.callStaticMethod(n, "loadAnroidAdsByManual", "()V");
 },
@@ -946,6 +952,7 @@ if (void 0 == s || null == s) {
 l();
 return;
 }
+cc.sys.os === cc.sys.OS_ANDROID && this.upltvbridge.showAndroidIconAdAt(t, i, e, n, o, s);
 cc.sys.os === cc.sys.OS_IOS && this.upltvbridge.showIosIconAdAt(t, i, e, n, o, s);
 }
 },
@@ -955,6 +962,7 @@ if (void 0 == t || null == t) {
 l();
 return;
 }
+cc.sys.os === cc.sys.OS_ANDROID && this.upltvbridge.removeAndroidIconAdAt(t);
 cc.sys.os === cc.sys.OS_IOS && this.upltvbridge.removeIosIconAdAt(t);
 }
 },

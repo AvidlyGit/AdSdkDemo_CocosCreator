@@ -1135,6 +1135,10 @@ var upltv = upltv || {
                 printLog("===> showIconAd(), the cpPlaceId can't be undefined or null.");
                 return;
             }
+            
+            if (cc.sys.os === cc.sys.OS_ANDROID) {
+                this.upltvbridge.showAndroidIconAdAt(x,y,width,height,rotationAngle,cpPlaceId);
+            }
 
             if (cc.sys.os === cc.sys.OS_IOS) {
                 this.upltvbridge.showIosIconAdAt(x,y,width,height,rotationAngle,cpPlaceId);
@@ -1149,6 +1153,11 @@ var upltv = upltv || {
                 printLog("===> removeIconAd(), the cpPlaceId can't be undefined or null.");
                 return;
             }
+			
+            if (cc.sys.os === cc.sys.OS_ANDROID) {
+                this.upltvbridge.removeAndroidIconAdAt(cpPlaceId);
+            }
+			
             if (cc.sys.os === cc.sys.OS_IOS) {
                 this.upltvbridge.removeIosIconAdAt(cpPlaceId);
             }

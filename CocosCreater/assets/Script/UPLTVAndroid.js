@@ -93,6 +93,16 @@ var upltva = upltva || {
     hideAndroidBannerAdAtBottom : function() {
         jsb.reflection.callStaticMethod(classJavaName, "hideBottomBanner", "()V");
     },
+	
+    //展示icon广告
+    showAndroidIconAdAt : function(x,y,width,height,rotationAngle,cpPlaceId) {
+        jsb.reflection.callStaticMethod(classJavaName, "showIconAd", "(IIIIILjava/lang/String;)V",x,y,width,height,rotationAngle,cpPlaceId);
+    },
+	
+    //移除icon广告
+    removeAndroidIconAdAt : function(cpPlaceId) {
+        jsb.reflection.callStaticMethod(classJavaName, "removeIconAd", "(Ljava/lang/String;)V", cpPlaceId);
+    },
 
     loadAndroidAdsByManual : function() {
         

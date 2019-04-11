@@ -1,64 +1,64 @@
-2019-01-08T08:23:18.887Z - normal: Load ~/.CocosCreator/settings.json
-2019-01-08T08:23:18.895Z - normal: checking language setting...
-2019-01-08T08:23:18.895Z - normal: Language: zh
-2019-01-08T08:23:20.540Z - success: protocol editor-framework registered
-2019-01-08T08:23:20.541Z - success: protocol app registered
-2019-01-08T08:23:20.541Z - success: protocol theme registered
-2019-01-08T08:23:20.541Z - success: protocol packages registered
-2019-01-08T08:23:20.541Z - success: protocol unpack registerred
-2019-01-08T08:23:20.541Z - success: protocol disable-commonjs registerred
-2019-01-08T08:23:20.657Z - normal: connected!
-2019-01-08T08:23:20.660Z - normal: Check project E:\github\AdSdkDemo_CocosCreator\CocosCreater
-2019-01-08T08:23:20.665Z - normal: Initializing project E:\github\AdSdkDemo_CocosCreator\CocosCreater
-2019-01-08T08:23:20.714Z - normal: Initializing Cocos2d
-2019-01-08T08:23:20.939Z - normal: Initializing Asset Database
-2019-01-08T08:23:20.978Z - success: protocol uuid registerred
-2019-01-08T08:23:20.979Z - success: protocol db registerred
-2019-01-08T08:23:20.979Z - success: protocol thumbnail registerred
-2019-01-08T08:23:20.979Z - normal: Loading editor/builtin packages
-2019-01-08T08:23:21.104Z - success: assets loaded
-2019-01-08T08:23:21.105Z - success: builder loaded
-2019-01-08T08:23:21.107Z - success: cocos-analytics loaded
-2019-01-08T08:23:21.110Z - success: console loaded
-2019-01-08T08:23:21.146Z - success: fb-instant-games loaded
-2019-01-08T08:23:21.150Z - success: hierarchy loaded
-2019-01-08T08:23:21.152Z - success: inspector loaded
-2019-01-08T08:23:21.153Z - success: keystore loaded
-2019-01-08T08:23:21.156Z - success: node-library loaded
-2019-01-08T08:23:21.157Z - success: package-asset loaded
-2019-01-08T08:23:21.158Z - success: preferences loaded
-2019-01-08T08:23:21.161Z - success: project-exporter loaded
-2019-01-08T08:23:21.175Z - success: project-importer loaded
-2019-01-08T08:23:21.177Z - success: project-settings loaded
-2019-01-08T08:23:21.179Z - success: ui-kit loaded
-2019-01-08T08:23:21.181Z - success: scene loaded
-2019-01-08T08:23:21.182Z - success: sprite-editor loaded
-2019-01-08T08:23:21.185Z - success: store loaded
-2019-01-08T08:23:21.189Z - success: timeline loaded
-2019-01-08T08:23:21.189Z - normal: Loading builtin packages
-2019-01-08T08:23:21.192Z - success: asset-db-debugger loaded
-2019-01-08T08:23:21.193Z - success: code-editor loaded
-2019-01-08T08:23:21.194Z - success: color-picker loaded
-2019-01-08T08:23:21.196Z - success: package-manager loaded
-2019-01-08T08:23:21.197Z - success: qqplay-adapter loaded
-2019-01-08T08:23:21.200Z - success: sdkbox loaded
-2019-01-08T08:23:21.203Z - success: tester loaded
-2019-01-08T08:23:21.205Z - success: ui-grid loaded
-2019-01-08T08:23:21.206Z - success: ui-kit-preview-extra loaded
-2019-01-08T08:23:21.207Z - success: ui-kit-preview loaded
-2019-01-08T08:23:21.209Z - success: ui-tree loaded
-2019-01-08T08:23:21.210Z - success: weapp-adapter loaded
-2019-01-08T08:23:22.278Z - normal: Loading packages
-2019-01-08T08:23:22.288Z - normal: Watching packages
-2019-01-08T08:23:22.590Z - normal: Run Application
-2019-01-08T08:23:25.301Z - success: preview server running at http://localhost:7456
-2019-01-08T08:23:29.961Z - warn: Script attached to "Canvas" in scene "helloworld.fire" is missing or invalid. Detailed information:
+2019-02-19T06:21:56.600Z - normal: Load ~/.CocosCreator/settings.json
+2019-02-19T06:21:56.605Z - normal: checking language setting...
+2019-02-19T06:21:56.605Z - normal: Language: zh
+2019-02-19T06:21:58.992Z - success: protocol editor-framework registered
+2019-02-19T06:21:58.993Z - success: protocol app registered
+2019-02-19T06:21:58.993Z - success: protocol theme registered
+2019-02-19T06:21:58.993Z - success: protocol packages registered
+2019-02-19T06:21:58.993Z - success: protocol unpack registerred
+2019-02-19T06:21:58.993Z - success: protocol disable-commonjs registerred
+2019-02-19T06:21:59.082Z - normal: connected!
+2019-02-19T06:21:59.084Z - normal: Check project E:\github\AdSdkDemo_CocosCreator\CocosCreater
+2019-02-19T06:21:59.086Z - normal: Initializing project E:\github\AdSdkDemo_CocosCreator\CocosCreater
+2019-02-19T06:21:59.102Z - normal: Initializing Cocos2d
+2019-02-19T06:22:01.551Z - normal: Initializing Asset Database
+2019-02-19T06:22:01.637Z - success: protocol uuid registerred
+2019-02-19T06:22:01.637Z - success: protocol db registerred
+2019-02-19T06:22:01.637Z - success: protocol thumbnail registerred
+2019-02-19T06:22:01.637Z - normal: Loading editor/builtin packages
+2019-02-19T06:22:01.850Z - success: assets loaded
+2019-02-19T06:22:01.852Z - success: builder loaded
+2019-02-19T06:22:01.855Z - success: cocos-analytics loaded
+2019-02-19T06:22:01.866Z - success: console loaded
+2019-02-19T06:22:01.903Z - success: fb-instant-games loaded
+2019-02-19T06:22:01.909Z - success: hierarchy loaded
+2019-02-19T06:22:01.951Z - success: inspector loaded
+2019-02-19T06:22:01.952Z - success: keystore loaded
+2019-02-19T06:22:01.956Z - success: node-library loaded
+2019-02-19T06:22:01.958Z - success: package-asset loaded
+2019-02-19T06:22:01.959Z - success: preferences loaded
+2019-02-19T06:22:01.960Z - success: project-exporter loaded
+2019-02-19T06:22:01.976Z - success: project-importer loaded
+2019-02-19T06:22:01.978Z - success: project-settings loaded
+2019-02-19T06:22:01.981Z - success: ui-kit loaded
+2019-02-19T06:22:01.985Z - success: scene loaded
+2019-02-19T06:22:01.986Z - success: sprite-editor loaded
+2019-02-19T06:22:01.989Z - success: store loaded
+2019-02-19T06:22:01.994Z - success: timeline loaded
+2019-02-19T06:22:01.995Z - normal: Loading builtin packages
+2019-02-19T06:22:02.007Z - success: asset-db-debugger loaded
+2019-02-19T06:22:02.029Z - success: code-editor loaded
+2019-02-19T06:22:02.033Z - success: color-picker loaded
+2019-02-19T06:22:02.042Z - success: package-manager loaded
+2019-02-19T06:22:02.045Z - success: qqplay-adapter loaded
+2019-02-19T06:22:02.097Z - success: sdkbox loaded
+2019-02-19T06:22:02.127Z - success: tester loaded
+2019-02-19T06:22:02.143Z - success: ui-grid loaded
+2019-02-19T06:22:02.150Z - success: ui-kit-preview-extra loaded
+2019-02-19T06:22:02.159Z - success: ui-kit-preview loaded
+2019-02-19T06:22:02.166Z - success: ui-tree loaded
+2019-02-19T06:22:02.170Z - success: weapp-adapter loaded
+2019-02-19T06:22:03.741Z - normal: Loading packages
+2019-02-19T06:22:03.747Z - normal: Watching packages
+2019-02-19T06:22:04.043Z - normal: Run Application
+2019-02-19T06:22:06.197Z - success: preview server running at http://localhost:7456
+2019-02-19T06:22:17.561Z - warn: Script attached to "Canvas" in scene "helloworld.fire" is missing or invalid. Detailed information:
 Node path: "Canvas"
 Asset url: "db://assets/Scene/helloworld.fire"
 Script UUID: "280c3aec-6492-4a9d-9f51-a9b00b570b4a"
 Class ID: "280c3rsZJJKnZ9RqbALVwtK"
 
-2019-01-08T08:24:53.072Z - normal: Start building with options : {
+2019-02-19T07:58:12.637Z - normal: Start building with options : {
   "actualPlatform": "Android",
   "apiLevel": "android-22",
   "appABIs": [],
@@ -120,196 +120,25 @@ Class ID: "280c3rsZJJKnZ9RqbALVwtK"
   "projectName": "hello_world",
   "debugBuildWorker": false
 }
-2019-01-08T08:24:53.075Z - normal: Building E:\github\AdSdkDemo_CocosCreator\CocosCreater
-2019-01-08T08:24:53.075Z - normal: Destination E:\github\AdSdkDemo_CocosCreator\CocosCreater\build\jsb-link
-2019-01-08T08:24:53.306Z - normal: Delete E:\github\AdSdkDemo_CocosCreator\CocosCreater\build\jsb-link\res/**/*,E:\github\AdSdkDemo_CocosCreator\CocosCreater\build\jsb-link\src/*/
-2019-01-08T08:24:58.904Z - normal: Start building assets
-2019-01-08T08:24:58.904Z - normal: Start spawn build-worker
-2019-01-08T08:24:59.618Z - normal: Finish spawn build-worker
-2019-01-08T08:24:59.619Z - normal: Start init build-worker
-2019-01-08T08:25:01.718Z - normal: Finish init build-worker
-2019-01-08T08:25:01.718Z - normal: Start build-assets in worker
-2019-01-08T08:25:01.832Z - info: Enable "内联所有 SpriteFrame" in native platform will increase the package size used in hot update.
-2019-01-08T08:25:01.879Z - warn: Script attached to "Canvas" in scene "helloworld.fire" is missing or invalid. Detailed information:
+2019-02-19T07:58:12.640Z - normal: Building E:\github\AdSdkDemo_CocosCreator\CocosCreater
+2019-02-19T07:58:12.640Z - normal: Destination E:\github\AdSdkDemo_CocosCreator\CocosCreater\build\jsb-link
+2019-02-19T07:58:13.153Z - normal: Delete E:\github\AdSdkDemo_CocosCreator\CocosCreater\build\jsb-link\res/**/*,E:\github\AdSdkDemo_CocosCreator\CocosCreater\build\jsb-link\src/*/
+2019-02-19T07:58:24.546Z - normal: Start building assets
+2019-02-19T07:58:24.547Z - normal: Start spawn build-worker
+2019-02-19T07:58:25.267Z - normal: Finish spawn build-worker
+2019-02-19T07:58:25.267Z - normal: Start init build-worker
+2019-02-19T07:58:27.411Z - normal: Finish init build-worker
+2019-02-19T07:58:27.411Z - normal: Start build-assets in worker
+2019-02-19T07:58:27.544Z - info: Enable "内联所有 SpriteFrame" in native platform will increase the package size used in hot update.
+2019-02-19T07:58:27.614Z - warn: Script attached to "Canvas" in scene "helloworld.fire" is missing or invalid. Detailed information:
 Node path: "Canvas"
 Asset url: "db://assets/Scene/helloworld.fire"
 Script UUID: "280c3aec-6492-4a9d-9f51-a9b00b570b4a"
 Class ID: "280c3rsZJJKnZ9RqbALVwtK"
 
-2019-01-08T08:25:02.070Z - normal: Finish build-assets in worker
-2019-01-08T08:25:02.080Z - normal: Finish building assets
-2019-01-08T08:25:02.088Z - normal: Start building plugin scripts
-2019-01-08T08:25:02.106Z - normal: Generating main.js from E:\CocosCreator\resources\static\build-templates\shares\main.js
-2019-01-08T08:25:02.180Z - normal: Built to "E:\github\AdSdkDemo_CocosCreator\CocosCreater\build\jsb-link" successfully
-2019-01-08T08:28:21.754Z - normal: Start building with options : {
-  "actualPlatform": "Android",
-  "apiLevel": "android-22",
-  "appABIs": [],
-  "appKey": "",
-  "appSecret": "",
-  "buildPath": "E:\\github\\AdSdkDemo_CocosCreator\\CocosCreater\\build",
-  "debug": false,
-  "dest": "E:\\github\\AdSdkDemo_CocosCreator\\CocosCreater\\build\\jsb-link",
-  "embedWebDebugger": false,
-  "encryptJs": false,
-  "excludeScenes": [],
-  "excludedModules": [],
-  "fb-instant-games": {},
-  "includeAnySDK": false,
-  "includeSDKBox": false,
-  "inlineSpriteFrames": true,
-  "inlineSpriteFrames_native": true,
-  "jailbreakPlatform": false,
-  "md5Cache": false,
-  "mergeStartScene": false,
-  "oauthLoginServer": "",
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "adam.lean.inland",
-  "platform": "android",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "privateKey": "",
-  "qqplay": {
-    "REMOTE_SERVER_ROOT": "",
-    "orientation": "portrait"
-  },
-  "renderMode": "0",
-  "scenes": [
-    "2d2f792f-a40c-49bb-a189-ed176a246e49"
-  ],
-  "sourceMaps": false,
-  "startScene": "2d2f792f-a40c-49bb-a189-ed176a246e49",
-  "template": "link",
-  "title": "hello_world",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "auto",
-  "wechatgame": {
-    "REMOTE_SERVER_ROOT": "",
-    "appid": "wx6ac3f5090a6b99c5",
-    "isSubdomain": false,
-    "orientation": "portrait",
-    "subContext": ""
-  },
-  "xxteaKey": "7f318857-1ed8-4d",
-  "zipCompressJs": true,
-  "project": "E:\\github\\AdSdkDemo_CocosCreator\\CocosCreater",
-  "projectName": "hello_world",
-  "debugBuildWorker": false
-}
-2019-01-08T08:28:21.757Z - normal: Building E:\github\AdSdkDemo_CocosCreator\CocosCreater
-2019-01-08T08:28:21.757Z - normal: Destination E:\github\AdSdkDemo_CocosCreator\CocosCreater\build\jsb-link
-2019-01-08T08:28:21.758Z - normal: Delete E:\github\AdSdkDemo_CocosCreator\CocosCreater\build\jsb-link\res/**/*,E:\github\AdSdkDemo_CocosCreator\CocosCreater\build\jsb-link\src/*/
-2019-01-08T08:28:22.917Z - normal: Creating native cocos project to  E:\github\AdSdkDemo_CocosCreator\CocosCreater\build\jsb-link
-2019-01-08T08:28:29.269Z - normal: Start building assets
-2019-01-08T08:28:29.269Z - normal: Start spawn build-worker
-2019-01-08T08:28:29.948Z - normal: Finish spawn build-worker
-2019-01-08T08:28:29.948Z - normal: Start init build-worker
-2019-01-08T08:28:32.087Z - normal: Finish init build-worker
-2019-01-08T08:28:32.087Z - normal: Start build-assets in worker
-2019-01-08T08:28:32.201Z - info: Enable "内联所有 SpriteFrame" in native platform will increase the package size used in hot update.
-2019-01-08T08:28:32.246Z - warn: Script attached to "Canvas" in scene "helloworld.fire" is missing or invalid. Detailed information:
-Node path: "Canvas"
-Asset url: "db://assets/Scene/helloworld.fire"
-Script UUID: "280c3aec-6492-4a9d-9f51-a9b00b570b4a"
-Class ID: "280c3rsZJJKnZ9RqbALVwtK"
-
-2019-01-08T08:28:32.407Z - normal: Finish build-assets in worker
-2019-01-08T08:28:32.422Z - normal: Finish building assets
-2019-01-08T08:28:32.429Z - normal: Start building plugin scripts
-2019-01-08T08:28:32.445Z - normal: Generating main.js from E:\CocosCreator\resources\static\build-templates\shares\main.js
-2019-01-08T08:28:32.523Z - normal: Built to "E:\github\AdSdkDemo_CocosCreator\CocosCreater\build\jsb-link" successfully
-2019-01-08T08:44:05.218Z - warn: Script attached to "Canvas" is missing or invalid. Detailed information:
-Node path: "Canvas"
-Script UUID: "280c3aec-6492-4a9d-9f51-a9b00b570b4a"
-Class ID: "280c3rsZJJKnZ9RqbALVwtK"
-
-2019-01-08T08:44:16.368Z - normal: Start building with options : {
-  "actualPlatform": "Android",
-  "apiLevel": "android-22",
-  "appABIs": [],
-  "appKey": "",
-  "appSecret": "",
-  "buildPath": "E:\\github\\AdSdkDemo_CocosCreator\\CocosCreater\\build",
-  "debug": false,
-  "dest": "E:\\github\\AdSdkDemo_CocosCreator\\CocosCreater\\build\\jsb-link",
-  "embedWebDebugger": false,
-  "encryptJs": false,
-  "excludeScenes": [],
-  "excludedModules": [],
-  "fb-instant-games": {},
-  "includeAnySDK": false,
-  "includeSDKBox": false,
-  "inlineSpriteFrames": true,
-  "inlineSpriteFrames_native": true,
-  "jailbreakPlatform": false,
-  "md5Cache": false,
-  "mergeStartScene": false,
-  "oauthLoginServer": "",
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "adam.lean.inland",
-  "platform": "android",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "privateKey": "",
-  "qqplay": {
-    "REMOTE_SERVER_ROOT": "",
-    "orientation": "portrait"
-  },
-  "renderMode": "0",
-  "scenes": [
-    "2d2f792f-a40c-49bb-a189-ed176a246e49"
-  ],
-  "sourceMaps": false,
-  "startScene": "2d2f792f-a40c-49bb-a189-ed176a246e49",
-  "template": "link",
-  "title": "hello_world",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "auto",
-  "wechatgame": {
-    "REMOTE_SERVER_ROOT": "",
-    "appid": "wx6ac3f5090a6b99c5",
-    "isSubdomain": false,
-    "orientation": "portrait",
-    "subContext": ""
-  },
-  "xxteaKey": "7f318857-1ed8-4d",
-  "zipCompressJs": true,
-  "project": "E:\\github\\AdSdkDemo_CocosCreator\\CocosCreater",
-  "projectName": "hello_world",
-  "debugBuildWorker": false
-}
-2019-01-08T08:44:16.370Z - normal: Building E:\github\AdSdkDemo_CocosCreator\CocosCreater
-2019-01-08T08:44:16.370Z - normal: Destination E:\github\AdSdkDemo_CocosCreator\CocosCreater\build\jsb-link
-2019-01-08T08:44:16.371Z - normal: Delete E:\github\AdSdkDemo_CocosCreator\CocosCreater\build\jsb-link\res/**/*,E:\github\AdSdkDemo_CocosCreator\CocosCreater\build\jsb-link\src/*/
-2019-01-08T08:44:21.577Z - normal: Start building assets
-2019-01-08T08:44:21.577Z - normal: Start spawn build-worker
-2019-01-08T08:44:22.256Z - normal: Finish spawn build-worker
-2019-01-08T08:44:22.256Z - normal: Start init build-worker
-2019-01-08T08:44:24.389Z - normal: Finish init build-worker
-2019-01-08T08:44:24.389Z - normal: Start build-assets in worker
-2019-01-08T08:44:24.496Z - info: Enable "内联所有 SpriteFrame" in native platform will increase the package size used in hot update.
-2019-01-08T08:44:24.543Z - warn: Script attached to "Canvas" in scene "helloworld.fire" is missing or invalid. Detailed information:
-Node path: "Canvas"
-Asset url: "db://assets/Scene/helloworld.fire"
-Script UUID: "280c3aec-6492-4a9d-9f51-a9b00b570b4a"
-Class ID: "280c3rsZJJKnZ9RqbALVwtK"
-
-2019-01-08T08:44:24.653Z - normal: Finish build-assets in worker
-2019-01-08T08:44:24.664Z - normal: Finish building assets
-2019-01-08T08:44:24.670Z - normal: Start building plugin scripts
-2019-01-08T08:44:24.681Z - normal: Generating main.js from E:\CocosCreator\resources\static\build-templates\shares\main.js
-2019-01-08T08:44:24.734Z - normal: Built to "E:\github\AdSdkDemo_CocosCreator\CocosCreater\build\jsb-link" successfully
+2019-02-19T07:58:27.721Z - normal: Finish build-assets in worker
+2019-02-19T07:58:27.730Z - normal: Finish building assets
+2019-02-19T07:58:27.738Z - normal: Start building plugin scripts
+2019-02-19T07:58:27.783Z - normal: Generating main.js from E:\CocosCreator\resources\static\build-templates\shares\main.js
+2019-02-19T07:58:27.846Z - normal: Built to "E:\github\AdSdkDemo_CocosCreator\CocosCreater\build\jsb-link" successfully
+2019-02-19T08:28:46.234Z - info: shutdown preview server

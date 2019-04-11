@@ -95,6 +95,16 @@ var upltva = upltva || {
         jsb.reflection.callStaticMethod(classJavaName, "hideBottomBanner", "()V");
     },
 
+    //展示icon广告
+    showAndroidIconAdAt: function showAndroidIconAdAt(x, y, width, height, rotationAngle, cpPlaceId) {
+        jsb.reflection.callStaticMethod(classJavaName, "showIconAd", "(IIIIILjava/lang/String;)V", x, y, width, height, rotationAngle, cpPlaceId);
+    },
+
+    //移除icon广告
+    removeAndroidIconAdAt: function removeAndroidIconAdAt(cpPlaceId) {
+        jsb.reflection.callStaticMethod(classJavaName, "removeIconAd", "(Ljava/lang/String;)V", cpPlaceId);
+    },
+
     loadAndroidAdsByManual: function loadAndroidAdsByManual() {
 
         jsb.reflection.callStaticMethod(classJavaName, "loadAnroidAdsByManual", "()V");

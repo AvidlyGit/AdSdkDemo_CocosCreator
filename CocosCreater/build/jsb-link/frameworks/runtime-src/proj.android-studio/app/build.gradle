@@ -21,20 +21,19 @@ android {
                     // skip the NDK Build step if PROP_NDK_MODE is none
                     targets 'cocos2djs'
                     arguments 'NDK_TOOLCHAIN_VERSION=4.9'
-                    arguments 'APP_PLATFORM=android-'+PROP_TARGET_SDK_VERSION
-                    
+                    arguments 'APP_PLATFORM=android-' + PROP_TARGET_SDK_VERSION
+
                     def module_paths = [project.file("E:/CocosCreator/resources/cocos2d-x"),
                                         project.file("E:/CocosCreator/resources/cocos2d-x/cocos"),
                                         project.file("E:/CocosCreator/resources/cocos2d-x/external")]
                     if (Os.isFamily(Os.FAMILY_WINDOWS)) {
                         arguments 'NDK_MODULE_PATH=' + module_paths.join(";")
-                    }
-                    else {
+                    } else {
                         arguments 'NDK_MODULE_PATH=' + module_paths.join(':')
                     }
 
                     arguments '-j' + Runtime.runtime.availableProcessors()
-                    abiFilters.addAll(PROP_APP_ABI.split(':').collect{it as String})
+                    abiFilters.addAll(PROP_APP_ABI.split(':').collect { it as String })
                 }
             }
         }
@@ -58,7 +57,7 @@ android {
 
     signingConfigs {
 
-       release {
+        release {
             if (project.hasProperty("RELEASE_STORE_FILE")) {
                 storeFile file(RELEASE_STORE_FILE)
                 storePassword RELEASE_STORE_PASSWORD
@@ -99,8 +98,8 @@ android.applicationVariants.all { variant ->
 
     variant.mergeAssets.doLast {
         copy {
-           from "${buildDir}/../../../../../res"
-           into "${buildDir}/intermediates/assets/${variant.dirName}/res"
+            from "${buildDir}/../../../../../res"
+            into "${buildDir}/intermediates/assets/${variant.dirName}/res"
         }
 
         copy {
@@ -128,16 +127,17 @@ repositories {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
     compile project(':libcocos2dx')
 
-
-    compile 'com.android.support:appcompat-v7:26.1.0'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.android.support:appcompat-v7:26.1.0'
+    compile 'com.android.support:recyclerview-v7:26.1.0'
     compile 'com.android.support:multidex:1.0.1'
 
-    compile(name: 'UPAdsSdk_CocosCreator_3.0.06_dex', ext: 'aar')
+    compile(name: 'UPAdsSdk_CocosCreator_3.0.07_dex', ext: 'aar')
     compile(name: 'android-gif-drawable', ext: 'aar') //for toutiao
+    compile(name: 'glide-3.7.0', ext: 'jar')
+    compile(name: 'gson-2.7', ext: 'jar')
 
     compile(name: 'mintegral_ads', ext: 'aar')
     compile(name: 'oneway_ads', ext: 'aar')
