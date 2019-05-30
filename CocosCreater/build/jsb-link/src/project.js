@@ -504,49 +504,66 @@ d.resetRewardLoadCallback();
 } else l(); else if (a.Function_Reward_DidLoadSuccess == o) if (null != d.rewardLoadSuccessCall && "function" == typeof d.rewardLoadSuccessCall) {
 d.rewardLoadSuccessCall(s, r);
 d.resetRewardLoadCallback();
-} else l(); else if (a.Function_Reward_DidOpen == o) {
-if (null != (p = d.rewardShowCall) && "function" == typeof p) {
-p(f.AdEventType.VIDEO_EVENT_DID_SHOW, s);
+} else l(); else if (a.Function_Reward_WillOpen == o) {
+if (null != (_ = d.rewardShowCall) && "function" == typeof _) {
+_(f.AdEventType.VIDEO_EVENT_WILL_SHOW, s);
+u && c(o, "CocosJs did run callback on video willopen event.");
+} else u && c(o, "CocosJs not run callback on video willopen event.");
+} else if (a.Function_Reward_DidOpen == o) {
+if (null != (_ = d.rewardShowCall) && "function" == typeof _) {
+_(f.AdEventType.VIDEO_EVENT_DID_SHOW, s);
 u && c(o, "CocosJs did run callback on video shown event.");
 } else u && c(o, "CocosJs not run callback on video shown event.");
 } else if (a.Function_Reward_DidClick == o) {
-if (null != (p = d.rewardShowCall) && "function" == typeof p) {
-p(f.AdEventType.VIDEO_EVENT_DID_CLICK, s);
+if (null != (_ = d.rewardShowCall) && "function" == typeof _) {
+_(f.AdEventType.VIDEO_EVENT_DID_CLICK, s);
 u && c(o, "CocosJs did run callback on video clicked event.");
 } else u && c(o, "CocosJs not run callback on video clicked event.");
 } else if (a.Function_Reward_DidClose == o) {
-if (null != (p = d.rewardShowCall) && "function" == typeof p) {
-p(f.AdEventType.VIDEO_EVENT_DID_CLOSE, s);
+if (null != (_ = d.rewardShowCall) && "function" == typeof _) {
+_(f.AdEventType.VIDEO_EVENT_DID_CLOSE, s);
 u && c(o, "CocosJs did run callback on video closed event.");
 } else u && c(o, "CocosJs not run callback on video closed event.");
 } else if (a.Function_Reward_DidGivien == o) {
-if (null != (p = d.rewardShowCall) && "function" == typeof p) {
-p(f.AdEventType.VIDEO_EVENT_DID_GIVEN_REWARD, s);
+if (null != (_ = d.rewardShowCall) && "function" == typeof _) {
+_(f.AdEventType.VIDEO_EVENT_DID_GIVEN_REWARD, s);
 u && c(o, "CocosJs did run callback on video reward given event.");
 } else u && c(o, "CocosJs not run callback on video reward given event.");
 } else if (a.Function_Reward_DidAbandon == o) {
-if (null != (p = d.rewardShowCall) && "function" == typeof p) {
-p(f.AdEventType.VIDEO_EVENT_DID_ABANDON_REWARD, s);
+if (null != (_ = d.rewardShowCall) && "function" == typeof _) {
+_(f.AdEventType.VIDEO_EVENT_DID_ABANDON_REWARD, s);
 u && c(o, "CocosJs did run callback on video reward cancel event.");
 } else u && c(o, "CocosJs not run callback on video reward cancel event.");
 } else if (a.Function_Interstitial_DidLoadFail == o) {
 var v = s + "_Interstitial";
 if (null != (h = d.get(v))) {
-null != (p = h.interstitialLoadFailCall) && "function" == typeof p && p(s, r);
+null != (_ = h.interstitialLoadFailCall) && "function" == typeof _ && _(s, r);
 d.remove(v);
 l();
 }
 } else if (a.Function_Interstitial_DidLoadSuccess == o) {
 v = s + "_Interstitial";
 if (null != (h = d.get(v))) {
-null != (p = h.interstitialLoadSuccessCall) && "function" == typeof p ? p(s, r) : l();
+null != (_ = h.interstitialLoadSuccessCall) && "function" == typeof _ ? _(s, r) : l();
 d.remove(v);
 } else l();
-} else if (a.Function_Interstitial_Didshow == o) {
+} else if (a.Function_Interstitial_Willshow == o) {
 var I = !1;
 if (null != (h = d.get(s))) {
-if (null != (p = h.interstitialShowCall) && "function" == typeof p) {
-p(f.AdEventType.INTERSTITIAL_EVENT_DID_SHOW, s);
+if (null != (_ = h.interstitialShowCall) && "function" == typeof _) {
+_(f.AdEventType.INTERSTITIAL_EVENT_WILL_SHOW, s);
+if (u) {
+I = !0;
+c(o, "CocosJs did run callback on il ad willshown event at " + s, s);
+}
+}
+}
+u && 0 == I && c(o, "CocosJs not run callback on il ad willshown event at " + s, s);
+} else if (a.Function_Interstitial_Didshow == o) {
+I = !1;
+if (null != (h = d.get(s))) {
+if (null != (_ = h.interstitialShowCall) && "function" == typeof _) {
+_(f.AdEventType.INTERSTITIAL_EVENT_DID_SHOW, s);
 if (u) {
 I = !0;
 c(o, "CocosJs did run callback on il ad shown event at " + s, s);
@@ -557,8 +574,8 @@ u && 0 == I && c(o, "CocosJs not run callback on il ad shown event at " + s, s);
 } else if (a.Function_Interstitial_Didclose == o) {
 I = !1;
 if (null != (h = d.get(s))) {
-if (null != (p = h.interstitialShowCall) && "function" == typeof p) {
-p(f.AdEventType.INTERSTITIAL_EVENT_DID_CLOSE, s);
+if (null != (_ = h.interstitialShowCall) && "function" == typeof _) {
+_(f.AdEventType.INTERSTITIAL_EVENT_DID_CLOSE, s);
 if (u) {
 I = !0;
 c(o, "CocosJs did run callback on il ad closed event at " + s, s);
@@ -569,8 +586,8 @@ u && 0 == I && c(o, "CocosJs not run callback on il ad closed event at " + s, s)
 } else if (a.Function_Interstitial_Didclick == o) {
 I = !1;
 if (null != (h = d.get(s))) {
-if (null != (p = h.interstitialShowCall) && "function" == typeof p) {
-p(f.AdEventType.INTERSTITIAL_EVENT_DID_CLICK, s);
+if (null != (_ = h.interstitialShowCall) && "function" == typeof _) {
+_(f.AdEventType.INTERSTITIAL_EVENT_DID_CLICK, s);
 if (u) {
 I = !0;
 c(o, "CocosJs did run callback on il ad clicked event at " + s, s);
@@ -580,45 +597,47 @@ c(o, "CocosJs did run callback on il ad clicked event at " + s, s);
 u && 0 == I && c(o, "CocosJs not run callback on il ad clicked event at " + s, s);
 } else if (a.Function_Banner_DidRemove == o) {
 if (null != (h = d.get(s))) {
-null != (p = h.bannerEventCall) && "function" == typeof p && p(f.AdEventType.BANNER_EVENT_DID_REMOVED, s);
+null != (_ = h.bannerEventCall) && "function" == typeof _ && _(f.AdEventType.BANNER_EVENT_DID_REMOVED, s);
 }
 d.remove(s);
 } else if (a.Function_Banner_DidClick == o) {
 if (null != (h = d.get(s))) {
-null != (p = h.bannerEventCall) && "function" == typeof p && p(f.AdEventType.BANNER_EVENT_DID_CLICK, s);
+null != (_ = h.bannerEventCall) && "function" == typeof _ && _(f.AdEventType.BANNER_EVENT_DID_CLICK, s);
 }
 } else if (a.Function_Banner_DidShow == o) {
 if (null != (h = d.get(s))) {
-null != (p = h.bannerEventCall) && "function" == typeof p && p(f.AdEventType.BANNER_EVENT_DID_SHOW, s);
+null != (_ = h.bannerEventCall) && "function" == typeof _ && _(f.AdEventType.BANNER_EVENT_DID_SHOW, s);
 }
 } else if (a.Function_Icon_DidLoad == o) {
 if (null != (h = d.get(s))) {
-null != (p = h.iconEventCall) && "function" == typeof p && p(f.AdEventType.ICON_EVENT_DID_LOAD, s);
+null != (_ = h.iconEventCall) && "function" == typeof _ && _(f.AdEventType.ICON_EVENT_DID_LOAD, s);
 }
 } else if (a.Function_Icon_DidLoadFail == o) {
 if (null != (h = d.get(s))) {
-null != (p = h.iconEventCall) && "function" == typeof p && p(f.AdEventType.ICON_EVENT_DID_LOADFAIL, s);
+null != (_ = h.iconEventCall) && "function" == typeof _ && _(f.AdEventType.ICON_EVENT_DID_LOADFAIL, s);
 }
 } else if (a.Function_Icon_DidShow == o) {
 if (null != (h = d.get(s))) {
-null != (p = h.iconEventCall) && "function" == typeof p && p(f.AdEventType.ICON_EVENT_DID_SHOW, s);
+null != (_ = h.iconEventCall) && "function" == typeof _ && _(f.AdEventType.ICON_EVENT_DID_SHOW, s);
 }
 } else if (a.Function_Icon_DidClick == o) {
 var h;
 if (null != (h = d.get(s))) {
-var p;
-null != (p = h.iconEventCall) && "function" == typeof p && p(f.AdEventType.ICON_EVENT_DID_CLICK, s);
+var _;
+null != (_ = h.iconEventCall) && "function" == typeof _ && _(f.AdEventType.ICON_EVENT_DID_CLICK, s);
 }
 } else cc.sys.os === cc.sys.OS_ANDROID && (a.Function_ExitAd_DidShow == o ? null != d.backPressedCall && "function" == typeof d.backPressedCall ? d.backPressedCall(f.AdEventType.EXITAD_EVENT_DID_SHOW, r) : l() : a.Function_ExitAd_DidClick == o ? null != d.backPressedCall && "function" == typeof d.backPressedCall ? d.backPressedCall(f.AdEventType.EXITAD_EVENT_DID_CLICK, r) : l() : a.Function_ExitAd_DidClickMore == o ? null != d.backPressedCall && "function" == typeof d.backPressedCall ? d.backPressedCall(f.AdEventType.EXITAD_EVENT_DID_CLICKMORE, r) : l() : a.Function_ExitAd_DidExit == o ? null != d.backPressedCall && "function" == typeof d.backPressedCall ? d.backPressedCall(f.AdEventType.EXITAD_EVENT_DID_EXIT, r) : l() : a.Function_ExitAd_DidCancel == o && (null != d.backPressedCall && "function" == typeof d.backPressedCall ? d.backPressedCall(f.AdEventType.EXITAD_EVENT_DID_CANCEL, r) : l()));
 }
 }
 },
 Function_Receive_Callback: "receive_callback",
+Function_Reward_WillOpen: "reward_willopen",
 Function_Reward_DidOpen: "reward_didopen",
 Function_Reward_DidClick: "reward_didclick",
 Function_Reward_DidClose: "reward_didclose",
 Function_Reward_DidGivien: "reward_didgiven",
 Function_Reward_DidAbandon: "reward_didabandon",
+Function_Interstitial_Willshow: "interstitial_willshow",
 Function_Interstitial_Didshow: "interstitial_didshow",
 Function_Interstitial_Didclose: "interstitial_didclose",
 Function_Interstitial_Didclick: "interstitial_didclick",
@@ -1069,6 +1088,8 @@ f.AdEventType.ICON_EVENT_DID_LOAD = 16;
 f.AdEventType.ICON_EVENT_DID_LOADFAIL = 17;
 f.AdEventType.ICON_EVENT_DID_SHOW = 18;
 f.AdEventType.ICON_EVENT_DID_CLICK = 19;
+f.AdEventType.VIDEO_EVENT_WILL_SHOW = 20;
+f.AdEventType.INTERSTITIAL_EVENT_WILL_SHOW = 21;
 i.exports.upltv = f;
 i.exports.bridgeInterface = u;
 cc._RF.pop();

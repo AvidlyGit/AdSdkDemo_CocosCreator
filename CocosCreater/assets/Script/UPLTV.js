@@ -110,6 +110,20 @@ var functionNames = {
                 printLog("===> rewardLoadSuccessCall is null or not function");
             }
         }
+        else if (functionNames.Function_Reward_WillOpen == callname) {
+            var call = ltvMap.rewardShowCall;
+            if (call != null && typeof call == "function") {
+                call(upltv.AdEventType.VIDEO_EVENT_WILL_SHOW, cpadid);
+                if (canreport) {
+                    onlineReportCall(callname, "CocosJs did run callback on video willopen event.");
+                }
+            }
+            else {
+                if (canreport) {
+                    onlineReportCall(callname, "CocosJs not run callback on video willopen event.");
+                }
+            }
+        }
         else if (functionNames.Function_Reward_DidOpen == callname) {
             var call = ltvMap.rewardShowCall;
             if (call != null && typeof call == "function") {
@@ -205,6 +219,23 @@ var functionNames = {
             }
             else {
                 printLog("===> interstitial_didloadsuccess v is null at key:" + k);
+            }
+        }
+        else if (functionNames.Function_Interstitial_Willshow == callname) {
+            var v = ltvMap.get(cpadid);
+            var callReport = false;
+            if (null != v) {
+                var call = v.interstitialShowCall;
+                if (null != call && typeof call == "function") {
+                    call(upltv.AdEventType.INTERSTITIAL_EVENT_WILL_SHOW, cpadid);
+                    if (canreport) {
+                        callReport = true;
+                        onlineReportCall(callname, "CocosJs did run callback on il ad willshown event at " + cpadid, cpadid);
+                    }
+                }
+            }
+            if (canreport && callReport == false) {
+                onlineReportCall(callname, "CocosJs not run callback on il ad willshown event at " + cpadid, cpadid);
             }
         }
         else if (functionNames.Function_Interstitial_Didshow == callname) {
@@ -361,12 +392,14 @@ var functionNames = {
 };
 functionNames.Function_Receive_Callback    = "receive_callback";
 
+functionNames.Function_Reward_WillOpen    = "reward_willopen";
 functionNames.Function_Reward_DidOpen    = "reward_didopen";
 functionNames.Function_Reward_DidClick   = "reward_didclick";
 functionNames.Function_Reward_DidClose   = "reward_didclose";
 functionNames.Function_Reward_DidGivien  = "reward_didgiven";
 functionNames.Function_Reward_DidAbandon = "reward_didabandon";
 
+functionNames.Function_Interstitial_Willshow  = "interstitial_willshow";
 functionNames.Function_Interstitial_Didshow  = "interstitial_didshow";
 functionNames.Function_Interstitial_Didclose = "interstitial_didclose";
 functionNames.Function_Interstitial_Didclick = "interstitial_didclick";
@@ -1479,6 +1512,9 @@ upltv.AdEventType.ICON_EVENT_DID_LOAD = 16;
 upltv.AdEventType.ICON_EVENT_DID_LOADFAIL = 17;
 upltv.AdEventType.ICON_EVENT_DID_SHOW = 18;
 upltv.AdEventType.ICON_EVENT_DID_CLICK = 19;
+
+upltv.AdEventType.VIDEO_EVENT_WILL_SHOW = 20;
+upltv.AdEventType.INTERSTITIAL_EVENT_WILL_SHOW = 21;
 
 module.exports.upltv = upltv;
 module.exports.bridgeInterface = bridgeInterface;
