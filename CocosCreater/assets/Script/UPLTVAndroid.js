@@ -195,6 +195,10 @@ var upltva = upltva || {
         return jsb.reflection.callStaticMethod(classJavaName,
             "isReportOnlineEnable", 
             "()Z");
+    },
+
+    isAndroidLogOpened : function() {
+        return jsb.reflection.callStaticMethod(classJavaName, "isLogOpened", "()Z");
     }
 };
 

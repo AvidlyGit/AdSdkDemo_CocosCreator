@@ -274,7 +274,6 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/javaPrecompile" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/jniLibs" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/lint" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/manifests" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/ndkBuild" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/prebuild" />
@@ -285,7 +284,6 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/symbols" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/transforms" />
       <excludeFolder url="file://$MODULE_DIR$/build/outputs" />
-      <excludeFolder url="file://$MODULE_DIR$/build/reports" />
       <excludeFolder url="file://$MODULE_DIR$/build/tmp" />
     </content>
     <orderEntry type="jdk" jdkName="Android API 26 Platform" jdkType="Android SDK" />
@@ -299,7 +297,6 @@
     <orderEntry type="library" name="Gradle: :baidu_ads:@aar" level="project" />
     <orderEntry type="library" name="Gradle: android.arch.core:common:1.0.0@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:support-v4:26.1.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: :UPAdsSdk_CocosCreator_3.0.07.4_dex:@aar" level="project" />
     <orderEntry type="library" name="Gradle: __local_aars__:E.\CocosCreator\resources\cocos2d-x\cocos\platform\android\java\libs\android-async-http-1.4.9.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: :gdt_ads:@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:support-annotations:26.1.0@jar" level="project" />
@@ -308,10 +305,12 @@
     <orderEntry type="library" name="Gradle: android.arch.lifecycle:runtime:1.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support.constraint:constraint-layout:1.0.2@aar" level="project" />
     <orderEntry type="library" name="Gradle: :glide-3.7.0:@jar" level="project" />
+    <orderEntry type="library" name="Gradle: :UPAdsSdk_CocosCreator_3.0.07.6_dex:@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:support-fragment:26.1.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: :playable_ads:@aar" level="project" />
     <orderEntry type="library" name="Gradle: android.arch.lifecycle:common:1.0.0@jar" level="project" />
     <orderEntry type="library" name="Gradle: :gson-2.7:@jar" level="project" />
+    <orderEntry type="library" name="Gradle: :android-query-full.0.26.7:@jar" level="project" />
     <orderEntry type="library" name="Gradle: :mintegral_ads:@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:appcompat-v7:26.1.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: :oneway_ads:@aar" level="project" />

@@ -180,6 +180,10 @@ var upltvoc = upltvoc || {
 
     isOnlineDebugReportEnable: function isOnlineDebugReportEnable() {
         return jsb.reflection.callStaticMethod(classIosName, "isReportOnlineEnableByJs");
+    },
+
+    isIosLogOpened: function isIosLogOpened() {
+        return jsb.reflection.callStaticMethod(classIosName, "isIosLogOpenedByJs");
     }
 };
 

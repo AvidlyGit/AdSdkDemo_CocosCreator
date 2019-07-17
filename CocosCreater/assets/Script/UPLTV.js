@@ -1435,6 +1435,8 @@ var upltv = upltv || {
                 if (functionNames.Function_Receive_Callback == callname) {
                     this.upltvbridge.reportIvokePluginMethodReceive(msg);
                 }
+                else if (functionNames.Function_Reward_WillOpen == callname) {
+                }
                 else if (functionNames.Function_Reward_DidOpen == callname) {
                     this.upltvbridge.reportRDShowDid(msg);
                 }
@@ -1450,6 +1452,8 @@ var upltv = upltv || {
                 else if (functionNames.Function_Reward_DidAbandon == callname) {
                     this.upltvbridge.reportRDRewardCancel(msg);
                 }
+                else if (functionNames.Function_Interstitial_Willshow == callname) {
+                }
                 else if (functionNames.Function_Interstitial_Didshow == callname) {
                     this.upltvbridge.reportILShowDid(msg, cpid);
                 }
@@ -1460,6 +1464,25 @@ var upltv = upltv || {
                     this.upltvbridge.reportILClose(msg, cpid);
                 }
         }
+    },
+    
+    // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    // >>>> JS -- SDK Debug接口
+    // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    
+    // 判断SDK是否开启了Debug log
+    // 同步返回boolean结果，true 表示已开启，false表示未开启
+    isLogOpened : function() {
+        if (undefined != this.upltvbridge && this.upltvbridge != null) {
+            
+            if (cc.sys.os === cc.sys.OS_IOS) {
+                return this.upltvbridge.isIosLogOpened();
+            }
+            else if (cc.sys.os === cc.sys.OS_ANDROID) {
+                return this.upltvbridge.isAndroidLogOpened();
+            }
+        }
+        return false;
     }
 
 };

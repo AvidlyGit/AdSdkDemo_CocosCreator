@@ -254,24 +254,24 @@
     "meta": 1546935805039,
     "relativePath": "Texture\\HelloWorld.png"
   },
-  "65bba236-571e-4f3b-893d-32c7346301d0": {
-    "asset": 1546935773118,
-    "meta": 1546935804987,
-    "relativePath": "Script\\UPLTVIos.js"
-  },
   "65f27047-6004-4af6-985d-3f19c1000f7d": {
     "asset": 1546935773099,
     "meta": 1546935804471,
     "relativePath": "Script\\HelloWorld.js"
   },
   "b35df9af-d6ab-4868-af1a-b8cd2ff3da74": {
-    "asset": 1559207494937,
-    "meta": 1559211982468,
+    "asset": 1563355708339,
+    "meta": 1563357515619,
     "relativePath": "Script\\UPLTV.js"
   },
   "8ae4a0c9-3248-4198-8383-1ba98aa9ab56": {
-    "asset": 1559207494944,
-    "meta": 1559211982470,
+    "asset": 1563355842802,
+    "meta": 1563357515621,
     "relativePath": "Script\\UPLTVAndroid.js"
+  },
+  "65bba236-571e-4f3b-893d-32c7346301d0": {
+    "asset": 1563244184000,
+    "meta": 1563357574249,
+    "relativePath": "Script\\UPLTVIos.js"
   }
 }
